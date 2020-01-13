@@ -31,78 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="\n\n 1.Wah bagus sekali lukisan itu . Penggunaan tanda baca yang tepat pada kalimat tersebut adalah ….
-\n        A.    Wah, bagus sekali lukisan itu!
-\n        B.     Wah, bagus sekali lukisan itu?
-\n        C.     Wah bagus sekali lukisan itu!
-\n        D.    Wah bagus sekali, lukisan itu!
-\n
-\n 2.Ibu membeli kelapa muda di pasar temanggung. Kata yang harus menggunakan huruf kapital pada kalimat tersebut adalah ….
-\n        A.    Ibu dan Temanggung
-\n        B.     Ibu dan Pisang Ambon
-\n        C.     Ibu dan Ambon
-\n        D.    Ibu, Ambon dan Sukabumi
-\n
-\n 3.Penggunaan tanda kurung yang paling tepat terdapat pada kalimat ….
-\n        A.    Selurung anggota (Pramuka) berlatih kemarin.
-\n        B.     Rozak tidak datang (berlatih) karena sakit.
-\n        C.     Anggota MA ( Mahkamah Agung) menolak pengajuan peninjauan kembali oleh terdakwa.
-\n        D.    Ia akan ke Surabaya (dua hari lagi)
-\n
-\n 4.Penomoran surat dinas berikut yang benar adalah ….
-\n        A.    32.SD.IX/09
-\n        B.     32,SD,IX/09
-\n        C.     32-SD/IX/09
-\n        D.    32/SD/IX/09
-\n
-\n 5.Penulisan jumlah uang yang tepat terdapat pada kalimat ….
-\n        A.    Ayah memberikan uang saku Rp5,000,00
-\n        B.     Sepeda itu harganya Rp150.000,000
-\n        C.     Uangku tinggal Rp12.000,00
-\n        D.    Meja itu terjual dengan harga Rp450;000,00
-\n
-\n 6.Penggunaan tanda titik dua ( : ) yang tepat terdapat dalam kalimat ….
-\n        A.    Ibu membeli: apel, mangga, dan jeruk.
-\n        B.     Aisyah membawa : sayur, nasi dan lauk untuk ayahnya di sawah.
-\n        C.     Difla sedang menyanyi : lagu pop
-\n        D.    Bibi membeli berbagai macam buah: salak, manggis, dan jambu.
-\n
-\n 7.Anak itu satu satuya yang berusia di bawah 12 tahun. Penggunaan tanda hubung yang tepat adalah ….
-\n        A.    Ber-usia
-\n        B.     di-bawah
-\n        C.     satu-satunya
-\n        D.    12-tahun
-\n
-\n        8.Pak Didi mengatakan bahwa buku Si Kancil dijual bebas. Penggunaan tanda baca (“…”) yang tepat dalam kalimat di atas adalah ….
-\n        A.    Pak Didi mengatakan bahwa buku “Si Kancil” dijual bebas.
-\n        B.     Pak Didi mengatakan, bahwa buku “Si Kancil” dijual bebas”.
-\n        C.     Pak Didi mengatakan bahwa “Buku Si Kancil dijual bebas”.
-\n        D.    Pak Didi mengatakan bahwa buku Si Kancil “Dijual bebas.”
-\n
-\n 9.Hore aku jadi juara kelasTanda baca yang tepat setelah kata hore dan di akhir kalimat adalah ….
-\n        A.    (,) dan (?)
-\n        B.     (.) dan (!)
-\n        C.     (.) dan (?)
-\n        D.    (,) dan (!)
-\n
-\n 10.Penulisan tanda koma yang tepat untuk memisahkan nama tempat dan tanggal adalah ….
-\n        A.    Temanggung, 4 April 2011
-\n        B.     Temanggung 4, April 2011
-\n        C.     Temanggung 4 April, 2011
-\n        D.    Temanggung, 4 April, 2011
-
-\n\n\n Kunci Jawaban
-\n   1.B
-\n   2.A
-\n   3.A
-\n   4.D
-\n   5.C
-\n   6.C
-\n   7.C
-\n   8.A
-\n   9.B
-\n   10.D
-
+            android:text="\n
 
 
 "
