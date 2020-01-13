@@ -18,7 +18,7 @@ public class BahasaIngg extends AppCompatActivity {
         setContentView(R.layout.bingg);
 
         listV = (ListView) findViewById(R.id.list);
-        String[] values = new String[]{"Prohibition", "Modals", "Opinion", "Past Perfect Tense"
+        String[] values = new String[]{"Prohib", "Mod", "Op", "P F T"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
