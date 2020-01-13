@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kimia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Atom"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#FF7F50"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n  \n1. Pernyataan yang benar untuk Ion Na+ adalah ….
+\n        a. mendapat tambahan 1 elektron
+\n        b. bermuatan negatif
+\n        c. bermuatan positif
+\n        d. bersifat netral
+\n
+\n2. Zat yang hanya terdiri dari molekul tunggal terdapat pada ….
+\n        a. silikon
+\n        b. gula
+\n        c. garam dapur
+\n        d. batu kapur (CaCO3)
+\n
+\n3. Molekul di bawah ini yang termasuk molekul unsur ….
+\n        a. air
+\n        b. garam dapur
+\n        c. ozon
+\n        d. karbon dioksida
+\n
+\n4. Atom menurut John Dalton ….
+\n        a. terdiri atas, proton, netron, dan elektron
+\n        b. materi yang netral
+\n        c. bagian yang tidak dapat dibagi lagi dari materi
+\n        d. karbon dapat dijadikan nitrogen
+\n5. Ion (Al3+) kehilangan jumlah elektron sebanyak ….
+\n        a. satu
+\n        b. dua
+\n        c. tiga
+\n        d. empat
+\n6. Pada molekul metana (CH4), satu atom karbon mengikat atom hidrogen sebanyak ….
+\n        a. satu atom H
+\n        b. dua atom H
+\n        c. tiga atom H
+\n        d. empat atom H
+\n7. Gaya yang mengikat atom-atom dalam sebuah molekul adalah gaya ….
+\n        a. gravitasi
+\n        b. magnet
+\n        c. inti
+\n        d. Elektrostatik
+\n8. Molekul di bawah tergolong diatomik, kecuali ….
+\n        a. CL2
+\n        b. F2
+\n        c. NaCl
+\n        d. H2O
+
+\n       \n       \n
+\n Kunci Jawaban:
+\n 1. C
+\n 2. A
+\n 3. C
+\n 4. C
+\n 5. C
+\n 6. D
+\n 7. C
+\n 8. D
+
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

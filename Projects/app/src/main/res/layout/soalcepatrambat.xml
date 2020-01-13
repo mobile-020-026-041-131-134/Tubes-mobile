@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/fisika1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Cepat Rambat"
+            android:textColor="#9400D3"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="357dp"
+            android:layout_margin="10dp"
+            android:text="1.	Suatu bunyi yang frekuensinya f = 250 Hz merambat pada zat padat yang memiliki modulus Young           E =108 N/m2 dan massa jenisnya ρ = 2500 kg/m3. Tentukan : a. cepat rambat bunyi dan panjang gelombang bunyi?\n
+a.	200 m/s dan 0.8 m\n
+b.	150 m/s dan 10 m\n
+c.	200 m/s dan 0.75 m\n
+d.	100 m/s dan 0.8 m\n\n
+
+2.	Jika periode sebiah gelombang adalah 0,25 sekon, frekuensi gelombang tersebut adalah..\n
+A. 2Hz\n
+B. 2,5Hz\n
+C. 4Hz\n
+D. 5Hz\n\n
+"
+
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="162dp"
+            android:layout_height="94dp"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/soalfis" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="3. yang menyatakan 1,5 getaran adalah..\n
+A. C - B - A – B\n
+B. C - B - A - B – C\n
+C. C - B - A - B - C – B\n
+D. C - B - A - B - C - B – A\n\n
+
+4.	Jika periode suatu bunyi 0,04 sekon, frekuensi bunyi tersebut termasuk jenis bunyi..\nA. audiosonik\n
+B. ultrasonic\n
+C. infrasonic\n
+D. supersonic\n\n
+5.	 Bunyi ban mobil truk yang pecah terdengar 4detik. jika cepat rambat bunyi di udara saat itu 300m/s, jarak sumber bunyi ke pendengar adalah..\n
+A. 75m\n
+B. 300m\n
+C. 600m\n
+D. 1.200m\n\n
+
+bolak-balik hingga 15 kali getaran. Periode getaran bandul tersebut adalah..\n
+A. 1s\n
+B. 2s\n
+C. 3s\n
+D. 4s\n\n
+7.	Sebuah ayunan bergetar sebanyak 30kali getara dalam waktu 1,5sekon, Frekuensi ayunan adalah..\n
+A. 2Hz\n
+B. 5Hz\n
+C. 20Hz\n
+D. 50Hz\n\n
+8.	Gelombang yang panjangnya 0,75m memiliki cepat rambat 150m/s. Frekuensinya adalah..\n
+A. 75Hz\n
+B. 150Hz\n
+C. 200Hz\n
+D. 225Hz\n\n
+9.	Gelombang laut memiliki frekuensi 0,2Hz dan panjang gelombang 5m. Cepat rambat gelombang laut tersebut adalah..\n
+A. 1m/s\n
+B. 2,5m/s\n
+C. 4m/s\n
+D. 10m/s\n
+10.	Waktu yang diperlukan untuk melakukan 150 getaran adalah 3menit. Periode getarannya adalah..\n
+A. 1,2sekon\n
+B. 2sekon\n
+C. 3sekon\n
+D. 5sekon\n\n
+
+"
+
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+

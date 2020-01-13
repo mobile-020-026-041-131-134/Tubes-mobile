@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/indonesia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pemenggalan Kata"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#4169E1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="\n \n 1. Pemenggalan kata
+\n      Contoh
+\n - Hulubalang kacamata kasatmata kilometer manasuka matahari olahraga padahal peribahasa perilaku puspawarna
+\n - Radioaktif saptamarga saputangan saripati sediakala segitiga sukacita sukarela syahbandar wiraswasta
+
+\n \n 2. Pedoman Umum Ejaan Bahasa Indonesia
+\n a. Jika di tengah kata terdapat huruf vokal yang berurutan, pemenggalannya dilakukan di antara kedua huruf vokal itu.
+\n Misalnya:
+       \n bu-ah ma-in ni-at sa-at
+\n b. Huruf diftong ai, au, ei, dan oi tidak dipenggal. Misalnya:
+pan-dai au-la sau-da-ra
+\n c. Jika di tengah kata dasar terdapat huruf konsonan (terma- suk gabungan huruf konsonan) di antara dua huruf vokal, pemenggalannya dilakukan sebelum huruf konsonan itu.
+\n Misalnya:
+\n ba-pak
+\n la-wan de-ngan ke-nyang mu-ta-khir mu-sya-wa-rah
+\n d. Jika di tengah kata dasar terdapat dua huruf konsonan yang berurutan, pemenggalannya dilakukan di antara kedua huruf konsonan itu.
+\n Misalnya:
+\n Ap-ril cap-lok makh-luk man-di sang-gup som-bong swas-ta
+\n e. Jika di tengah kata dasar terdapat tiga huruf konsonan atau lebih yang masing-masing melambangkan satu bunyi, pemenggalannya dilakukan di antara huruf kon- sonan yang pertama dan huruf konsonan yang kedua.
+\n Misalnya:
+\n ul-tra
+\n in-fra ben-trok in-stru-men
+
+
+
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

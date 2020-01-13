@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/indonesia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Pemenggalan Kata"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#4169E1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="\n \n 1. Pemenggalan dari kata registrasi adalah....
+\n        a.re-gis-trasi
+\n        b.re-gis-tra-si
+\n        c.reg-istrasi
+\n        d.re-gistrasi
+\n
+\n 2. Pemenggalan kata kota yang benar adalah....
+\n        a.ko-ta
+\n        b.k-ota
+\n        c.kot-a
+\n        d.k-o-t-a
+\n
+\n 3. Pemenggalan kata dari mu-sya-wa-rah adalah ....
+\n        a.mus-ya-wa-rah
+\n        b.mu-sya-wa-rah
+\n        c.musy-a-warah
+\n        d.musya-warah
+\n
+\n 4. Pemenggalan kata menyapu lantai yang benar adalah.....
+\n        a.meny-apu
+\n        b.men-yapu
+\n        c.me-nya-pu
+\n        d.me-ny-apu
+\n
+\n 5. Pemenggalan dari kata belajar yang benar adalah=...
+\n        a.Bel - aj - ar
+\n        b.Be - la - jar
+\n        c.Bela - jar
+\n        d.Bela - ja – r
+\n
+\n        6. Pemenggalan dari kata durian adalah?
+\n        a.Dur-ian
+\n        b.Du-rian
+\n        c.Du-ri-an
+\n        d.Duri-an
+\n
+\n 7. Pemeggalan kata presiden yang benar adalah...
+\n        a.Pr-esi-den
+\n        b.Pre-si-den
+\n        c.Pres-iden
+\n        d.P-r-e-s-i-d-e-n
+
+\n\n\n Kunci Jawaban
+\n   1.A
+\n   2.D
+\n   3.C
+\n   4.B
+\n   5.C
+\n   6.C
+\n   7.B
+\n   8.B
+\n   9.B
+\n   10.C
+
+
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>

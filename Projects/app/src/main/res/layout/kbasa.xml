@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kimia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asam, Basa, dan Garam"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#FF7F50"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="234dp"
+            android:layout_margin="10dp"
+            android:text="Istilah asam (acid) berasal dari bahasa Latin acetum yang berarti cuka. Tentunya Anda sudah tahu bagaimana rasa cuka tersebut. Selain cuka, buah-buahan yang masih muda pada umumnya berasa masam. Sebenarnya rasa masam dalam buah-buahan tersebut disebabkan karena zat kimia yang terkandung di dalamnya yang biasa disebut asam."
+            android:textColor="#696969"
+            android:textSize="9pt" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kim" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="898dp"
+            android:layout_margin="10dp"
+            android:text="Sifat khas lain dari asam adalah dapat bereaksi dengan logam-logam, marmer dan berbagai bahan lain. Logam besi dapat bereaksi cepat dengan asam klorida (HCl) membentuk besi (II) klorida (FeCl2) dan gas hydrogen (H2), berikut rumus reaksi kimianya:
+\n\n                   2HCl + Fe  FeCl2 + H2
+\n\nSifat ini dapat menjelaskan mengapa asam bersifat korosif terhadap sebagian besar logam
+\n\nBasa (alkali) berasal dari bahasa Arab yang berarti abu. Istilah basa dalam ilmu kimia adalah zat yang dapat menghasilkan ion hidroksida negatif (OH–) ketika dilarutkan ke dalam larutan air.
+\n\nBasa dalam kehidupan sehari-hari mudah ditemukan dalam bentuk padat ataupun cairan, seperti kapur tulis, abu, sabun, larutan kapur, detergen, daun sirih, dan lain-lain. Basa terasa pahit dan licin seperti sabun sehingga bersifat kaustik. Beberapa basa yang dijumpai dalam kehidupan sehari-hari, seperti ditunjukkan dalam tabel berikut ini.
+\n\nUmumnya zat-zat dengan sifat yang berlawanan, seperti asam dam basa cenderung bereaksi satu sama lain. Jadi reaksi asam dengan basa disebut juga penggaraman, karena:
+ "
+            android:textColor="#696969"
+            android:textSize="9pt" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="88dp"
+            app:srcCompat="@drawable/kim2" />
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/english" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Modals"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#A52A2A"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n
+\n1. Look at this street. it is very muddy. it____have rained heavily last night.
+\n       A.will
+\n       B.Would
+\n       C.Could.
+\n       D.Must
+\n
+\n 2.	The child ate up all the meal we had served. He____very hungry.
+\n       A.will have been
+\n       B.Could have been.
+\n       C.Must have been.
+\n       D.Would have been.
+\n
+\n3. Alfred visited some countries in Asia, Europe and America. He bought luxurious things for his wife and children. he_____a lot of money.
+\n       A.could have
+\n       B.would have
+\n       C.ought have
+\n       D.must have had
+\n
+\n4.	Berta : “Can I have your report soon?”
+\n   Jono : “sure, I ______it before you go to the meeting”
+\n       A.will finished
+\n       B.will have finished
+\n       C.am going to finish
+\n       D.am finishing
+\n
+\n5. Dina : Roni, that’s the most popular book nowadays
+\n  Roni : oh yes. it must have been written by a distinguished professor___that book.
+\n       A.wrote
+\n       B.would write
+\n       C.should write
+\n       D.planned to write
+\n
+\n6. Mom and dad just left for the airport twenty minutes ago, so they___there yet.
+\n       A.can’t have gotten
+\n       B.shouldn’t have gotten
+\n       C.had better have gotten
+\n       D.could have gotten
+\n
+\n 7.	Although research scientist had hoped that the new drug interferon____to be a cure for cancer, it’s applications now appear to be more limited.
+\n       A.prove
+\n       B.Had proven
+\n       C.would prove
+\n       D.will prove
+\n
+\n8. Henry will not able to attend the meeting tonight because____
+\n       A.he must to teach a class
+\n       B.he will be teaching a class
+\n       C.of he will teach a class
+\n       D.he will have teaching a class
+\n
+\n9. The theory of continental drift assumes that there____long-term climatic changes in many areas during the past.
+\n       A.must have been
+\n       B.must be
+\n       C.must have
+\n       D.must
+\n
+\n10. The man standing over there asked me whether he____the flowers from my garden.
+\n       A.took
+\n       B.might take
+\n       C.ought to take
+\n       D.would take
+\n\n\nAnswer Key:
+\n 1. D
+\n 2. C
+\n 3. D
+\n 4. B
+\n 5. A
+\n 6. B
+\n 7. C
+\n 8. B
+\n 9. A
+\n 10. B
+
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

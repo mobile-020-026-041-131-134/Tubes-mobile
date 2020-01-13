@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kimia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Zat Akdiktif dan Psikoterapi"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#FF7F50"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n \n1. Berikut ini yang merupakan contoh bahan aditif berupa pewarna buatan yang diijinkan adalah...
+\n        a. hijau FCF
+\n        b. auramine
+\n        c. orange RN
+\n        d. metanil Yellow
+\n
+\n2. Bahan pewarna yang disarankan untuk dipakai dalam produk makanan dan minuman adalah....
+\n        a. pewarna alami karena lebih mudah diperoleh dari pewarna buatan
+\n        b. pewarna buatan karena pewarna buatan lebih mudah dibeli di toko
+\n        c. pewarna alami karena tidak memiliki efek samping dalam penggunaan dengan skala besar
+\n        d. pewarna buatan karena tidak akan menimbulkan penyakit apapun meski dipakai dalam jumlah banyak
+\n
+\n3. Pengawet digunakan dalam pembuatan bahan makanan, karena....
+\n        a. mempermudah dalam pengemasan untuk pendistribusian
+\n        b. mencegah reaksi kimia tertentu pada bahan makanan
+\n        c. membantu proses penumbuhan berbagai mikroorganisme pada bahan makanan
+\n        d. mencegah makanan dikonsumsi dalam jangka waktu tertentu
+\n
+\n4. Pemanis buatan yang tidak mengandung kalori dianjurkan untuk dikonsumsi para penderita penyakit tertentu yang ingin menikmati rasa manis secara aman. Penyakit tersebut diantaranya adalah....
+\n        a. kanker
+\n        b. tekanan darah tinggi
+\n        c. diabetes melitus
+\n        d. diabetes insipidus
+\n5.Monosodium glutamat (MSG) memiliki rasa yang khas tetapi penggunaannya harus dibatasi. Bahan campuran yang dapat menggantikan rasa dari MSG adalah....
+\n        a. garam dan serbuk lada
+\n        b. gula dan asam
+\n        c. garam dan asam
+\n        d. gula dan garam
+\n
+\n6. Efek umum yang dapat ditimbulkan dari mengkonsumsi teh adalah....
+\n        a. kepala pusing
+\n        b. sering buang air kecil
+\n        c. tangan dan kaki kesemutan
+\n        d. tekanan darah naik
+\n
+\n7. Banyak orang menjadi kecanduan setelah meminum kopi, karena kopi....
+\n        a. mengadung bahan adiktif yang termasuk psikotropika
+\n        b. mengandung bahan yang bersifat menurunkan kerja sistem saraf pusat
+\n        c. mengandung bahan adiktif bukan narkotika dan psikotropika berupa kafein
+\n        d. sangat nikmat dikonsumsi karena rasanya yang manis
+\n
+\n8. Ikan adalah salah satu jenis makanan yang memiliki kandungan protein tinggi. Akan tetapi, ikan mudah sekali busuk jika tidak segera diolah. Berikut ini cara pengawetan ikan yang tepat adalah ....
+\n        a. pendinginan, pengasapan dan penambahan enzim
+\n        b.  pengeringan, pembekuan dan penambahan gula
+\n        c. pendinginan, pengalengan dan penambahan garam
+\n        d. pengalengan, pengeringan dan penambahan enzim
+\n
+\n9. Gejala psikis orang yang menggunakan opium adalah....
+\n        a. timbul masalah pada kulit hidung dan mulut
+\n        b. mual, muntah, dan konstipasi atau sembelit
+\n        c. mulut kering dan warna muka berubah
+\n        d. menimbulkan semangat
+\n
+\n10. Hal yang harus dilakukan oleh seseorang yang sudah terlanjur kecanduan psikotropika adalah....
+\n        a. mengatasinya dengan menahan diri dari menggunakan bahan tersebut meskipun ada rasa sakit yang berlebihan
+\n        b. datang ke rumah sakit tertentu untuk mendapat terapi penghentian penggunaan psikotropika
+\n        c. menggunakan bahan lain identik narkoba tapi tidak berbahaya, sehingga rasa sakit akibat kecanduan akan hilang
+\n        d. mengurangi dosis penggunaan psikotropika sesuai keinginan dirinya sendiri
+
+\n       \n       \n
+\n Kunci Jawaban:
+\n 1. A
+\n 2. C
+\n 3. B
+\n 4. C
+\n 5. D
+\n 6. B
+\n 7. C
+\n 8. C
+\n 9. D
+\n 10. B
+
+
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

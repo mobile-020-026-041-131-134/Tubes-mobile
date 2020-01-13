@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/biology" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem Pencernaan"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#2E8B57"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="3000dp"
+            android:layout_margin="10dp"
+            android:text="Pengertian Dasar Sistem Pencernaan Manusia
+yaitu proses penghancuran makanan yang terjadi dalam mulut hingga lambung. Selanjutnya adalah proses  penyerapan sari-sari makanan yang terjadi di dalam usus. Kemudian, proses pengeluaran sisa-sisa makanan melalui anus. Dalam pelaksanaan proses pencernaan makanan organ pencernaan dibantu oleh enzim dan hormone yang prosesnya berbeda tiap organ dan mempunyai fungsi masing-masing.
+\n\n
+Macam-macam proses pencernaan
+Berdasarkan prosesnya pencernaan makanan pada manusia terdiri dari proses pencernaaan mekanis yaitu pengunyahan oleh gigi dengan dibantu lidah serta peremasan yang terjadi di lambung dan proses pencernaan kimiawi yaitu pelarutan dan pemecahan makanan oleh enzim-enzim pencernaan dengan mengubah makanan yang bermolekul besar menjadi molekul yang berukuran kecil.
+
+Organ Pencernaan pada Manusia\n
+Saluran pencernaan merupakan bagian dalam tubuh yang menerima makanan dari luar dan mempersiapkan untuk diserap oleh tubuh dengan melalui suatu proses (pengunyahan, penelanan dan percampuran) dengan bantuan beberapa zat kimia yang disebut dengan enzim dan biasanya terdapat di beberapa bagian organ pencernaan. Banyak sekali organ-organ pada tubuh untuk melakukan proses pencernaan tersebut. Sebagai contohnya, berikut beberapa organ pencernaan pada manusia beserta penjelasannya.
+\n\n
+1.	Organ Mulut\n
+Mulut adalah bagian tubuh yang berfungsi sebagai pintu masuk suatu makanan ke dalam tubuh manusia. Pada bagian ini terdapat beberapa alat yang akan membantu dalam proses pencernaan diantaranya: gigi, lidah serta kelenjar ludah atau air liur. Di dalam rongga mulut ini makanan akan mengalami proses pencernaan secara mekanik dan kimiawi.
+\n\n
+2.	Gigi\n
+Seperti yang sudah diketahui bahwa gigi ini memiliki fungsi untuk mengunyah makanan agar menjadi halus. Dengan proses tersebut memungkinkan enzim-enzim pencernaan akan lebih cepat dan mudah dalam mencerna makanan tersebut. Gigi sendiri dibedakan menjadi empat macam yang tergantung pada letak dan fungsinya, seperti gigi seri, gigi taring, gigi geraham depan dan gigi geraham belakang.\n
+Selain itu pada gigi manusia terdiri dari tiga bagian yaitu: mahkota gigi atau biasanya disebut dengan Korona, leher gigi (Kolum) dan juga akar gigi (Radiks). Mahkota gigi atau puncak gigi ini merupakan termasuk dalam bagian gigi yang paling luar.
+\n\n
+3.	Organ Kerongkongan\n
+Kerongkongan atau dikenal dengan esofagus adalah saluran penghubung antara rongga mulut dengan bagian lambung. Organ ini memiliki fungsi sebagai jalan bagi makanan yang telah dikunyah dari rongga mulut menuju lambung. Jadi pada bagian kerongkongan ini hanya menyalurkan makanan ke lambung dan tidak terjadi pencernaan di sana.
+\n\n
+4.	Lambung\n
+Organ lambung atau lebih dikenal dengan istilah Ventrikulus merupakan kantung besar yang terletak di sebelah kiri dari rongga perut yang berfungsi sebagai tempat terjadinya sejumlah proses pencernaan. Lambung sendiri terdiri dari tiga bagian, yaitu: pada bagian atas atau disebut dengan Kardiak, bagian tengah yang membulat (Fundus) dan pada bagian bawah bernama Pilorus. Letak Karidak memang berdekatan dengan organ hati dan berhubungan dengan kerongkongan langsung. Sedangkan Pilorus berhubungan langsung dengan usus dua belas jari.
+\n\n
+5.	Usus halus\n
+Usus halus atau dikenal dengan istilah Intestinum ini merupakan tempat penyerapan sari makanan dan juga sebagai tempat terjadinya proses pencernaan yang paling panjang. Pada organ usus ini terdapat beberapa bagian, di antaranya:
+\n
+Usus dua belas jari atau dikenal dengan istilah duodenum.
+Usus kosong atau jejenum.
+Usus Penyerapan atau ileum.
+Alat Pencernaan Usus Besar
+\n\n
+6.	Anus\n
+Anus merupakan tempat untuk pembuangan feses atau sisa makanan yang tidak dibutuhkan oleh tubuh. Namun sebelum feses tersebut dibuang, maka akan ditampung terlebih dahulu pada bagian rektum. Otot spinktker yang menyusun rektum ada 2, yaitu otot polos dan juga otot lurik. Jadi proses buang ari besar (defekasi) dilakukan dengan sadar, yaitu adanya kontraksi otot dinding pada perut. Kemudian juga diikuti dengan mengendurnya otot sfingter anus dan kontraksi kolon serta rektum. Dengan begitu fases akan dapat terdorong keluar melalui anus.
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+

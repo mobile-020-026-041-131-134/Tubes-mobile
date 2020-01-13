@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/english" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Opinion"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#A52A2A"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n \nKate : We’ll have a long holiday next month. What are you going to do?
+\nYani : ....
+\nKate : I hope you have a nice trip
+\n1. Complete the dialogue above ....
+\n       A. I am thinking of going to Bali Sorry
+\n       B. Sorry, I can’t tell you
+\n       C. It’s not your business
+\n       D. I have nothing to do
+\n       E. I don’t know what to do
+\n
+\n Alex : What do you think about the film ?
+\n Bram : I think .......................
+\n 2. Complete the dialogue above ....
+\n       A. I like it
+\n       B. Thank you
+\n       C. I can’t hear you
+\n       D. You forget it
+\n       E. Let’s go
+\n
+\n Eric : I think our city is very hot at the moment.
+\n Era  : I don’t think so ................ Our city is much cooler than other cities in this country.
+\n 3. Complete the dialogue above ....
+\n       A. I know it
+\n       B. I am thinking of
+\n       C. He forget it
+\n       D. In my opinion
+\n       E. See you
+\n
+\n Bowo : I feel tired and I feel dizzy.
+\n Sri : I think …. Don’t leave the bed if it is not necessary.
+
+\n 4. Complete the dialogue above ....
+\n       A. You must sing
+\n       B. You should lie down and have some rest
+\n       C. You can see the doctor tonight
+\n       D. I will take you to the hospital
+\n       E. I must take some rest, too
+\n
+\n Dave: So what do you think of my singing?
+\n John: It's really good, but I suggest to try singing in a high tune.
+\n Dave: Thanks, John.
+\n John: No problem, Dave!
+\n 5. From the dialogue above, John is...
+\n       A. Asking for help
+\n       B. Giving an opinion
+\n       C. Asking for an opinion
+\n       D. Giving help
+\n       E. Giving attention
+\n
+\n Jade: What do you think of my drawing?
+\n Rose: It's amazing, but I think you should erase the scribbles over here.
+\n Jade: Thank you so much for you opinon, Rose!
+\n Rose: My pleasure.
+\n 6. From the dialogue above, Rose is...
+\n       A. Asking for attention
+\n       B. Asking a question
+\n       C. Giving an opinion
+\n       D. Giving help
+\n       E. Asking for help
+\n
+\n Dirk: Can you give me an opinion about my sculpture?
+\n Jake: Sure thing! I think you should have had fixed the hand.
+\n Dirk: Thanks, Jake.
+\n Jake: No problem!
+\n 7. From the dialogue above, Dirk is...
+\n       A. Asking for help
+\n       B. Giving help
+\n       C. Giving opinion
+\n       D. Asking for an opinion
+\n       E. Asking for help
+\n
+\n Jane: Roxy, what do you think of the cake I bake?
+\n Roxy: It' really delicious! I love it!
+\n Jane: yes!
+\n 8. From the dialogue above, Jane is...
+\n       A. Asking for an opinion
+\n       B. Asking for help
+\n       C. Requesting for attention
+\n       D. Giving an item
+\n       E. Giving opinion
+\n
+\n 9. Ani : ………..
+\n Ida : I think it’s great
+\n       A. Have you read this book?
+\n       B. What do you think of this book?
+\n       C. What is it?
+\n       D. Do you know this?
+\n       E. How do you do?
+\n
+\n10. Ani : ……
+\nIda : I love it
+\n       A. How do you like this place?
+\n       B. What does it mean?
+\n       C. Do you want to join us?
+\n       D. Isn’t the idea worse than before?
+\n       E. I love you
+
+\n\n\nKey answer:
+\n 1. A
+\n 2. A
+\n 3. D
+\n 4. D
+\n 5. B
+\n 6. C
+\n 7. D
+\n 8. A
+\n 9. B
+\n 10. A
+
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

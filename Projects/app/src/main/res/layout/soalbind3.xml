@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/indonesia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Penulisan Kata Berimbuhan"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#4169E1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="\n \n 1.    Pak Warijo sedang menyemir sepatu. Makna imbuhan meN- pada kata menyemir dalam kalimat tersebut adalah ….
+\n     A. Menghasilkan sesuatu
+\n     B. Memberi atau membubuhi
+\n     C. Melakukan pekerjaan
+\n     D. Mengeluarkan atau menampilkan
+\n
+\n2.    Pak Rino sedang … barang dagangan di tokonya.Kata berimbuhan yang tepat untuk mengisi bagian yang rumpang pada kalimat tersebut adalah ….
+\n     A. mesurvei
+\n     B. memsurvei
+\n     C. mensurvei
+\n     D. menyurvei
+\n
+\n 3.   Penabuh beduk itu terlihat kelelahan.
+\n     Makna imbuhan pe- pada kata penabuh dalam kalimat tersebut adalah ….
+\n     A. orang atau hal yang dikenai laku
+\n     B. alat yang digunakan untuk
+\n     C. orang  yang melakukan suatu perbuatan
+\n     D. yang memiliki
+\n
+\n 4.   Kalimat berikut yang mengandung imbuhan per-/-an yang bermakna tempat melakukan perbuatan adalah ….
+\n     A. Perampokan yang terjadi tadi malam menyebabkan kerugian jutaan rupiah.
+\n     B. Pelabuhan Tanjung Priuk selalu ramai setiap harinya.
+\n     C. Kue pesanan Bu Tanti akan dikirim nanti malam.
+\n     D. Di dekat rumahku akan dibangun perumahan yang sangat mewah.
+\n
+\n 5.   Anak-anak terlihat kepanasan saat upacara bendera. Makna imbuhan ke-/-an pada kata kepanasan dalam kalimat tersebut adalah ….
+\n     A. perbuatan yang tidak disengaja
+\n     B. terlalu, terlampau,
+\n     C. menderita, terkena
+\n     D. keadaan yang berhubungan dengan'
+\n
+\n 6.   Akhiran -kan pada kalimat di bawah ini yang menyatakan arti 'melakukan sesuatu untuk orang lain' terdapat pada kalimat …
+\n     A. Segera ambilkan tas kerja ayah!
+\n     B. dengarkan penjelasanku, ya.
+\n     C. keluarkan buku-bukumu!
+\n     D. tusukkan jarum itu di kain!
+\n
+\n7.    Agar semakin enak, … susu itu! Kata berimbuhan yang tepat untuk mengisi bagian yang rumpang pada kalimat tersebut adalah ….
+\n     A. gulakan
+\n     B. gulai
+\n     C. menggulakan
+\n     D. gula
+\n
+\n 8.   Tidak aku sangka, ternyata aku dan dirinya dapat tinggal sekampung sekarang. Makna imbuhan se- pada kata sekampung dalam kalimat tersebut adalah ….
+\n     A. menyatakan arti 'seluruh'
+\n     B. menyatakan satu dalam tempat
+\n     C. menyatakan saat satu waktu
+\n     D. menyatakan sebanyak atau seberapa
+\n
+\n 9. kata dasar proses apabila mendapat imbuhan me- menjadi. . . . .
+\n     A. memroses
+\n     B. memproses
+\n     C. menproses
+\n     D. mengproses
+\n
+\n 10. kata dasar tampil apabila terdapat imbuhan me- , kan- menjadi. . . . .
+\n     a. mentampilkan
+\n     b. memenampilkan
+\n     c. menampilkan
+\n     d. mempertampilkan
+
+\n\n\n Kunci Jawaban
+\n   1.A
+\n   2.D
+\n   3.C
+\n   4.B
+\n   5.C
+\n   6.C
+\n   7.B
+\n   8.B
+\n   9.B\n   10.C
+
+
+
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>

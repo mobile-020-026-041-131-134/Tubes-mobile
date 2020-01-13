@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/biology" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem Peredaraan"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#2E8B57"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="1800dp"
+            android:layout_margin="10dp"
+            android:text="Darah diedarkan ke seluruh tubuh melalui suatu pembuluh. Darah bisa sampai ke pembuluh karena dimpompa oleh organ bernama jantung.
+\n\n
+1. Jantung
+\n
+Jantung merupakan organ peredaran darah yang berbentuk seperti kerucut tumpul dan ujung bawahnya agar miring ke bagian kiri. Jantung terletak di antara paru-paru dan di atas diafrgma di dalam rongga dada. Ukuran jantung hampir sama dengan kepalan tangan orang dewasa dengan berat 220-260 gram (untuk orang dewasa).
+\n
+a. Fungsi jantung
+\n
+Jantung berfungsi untuk memompa darah ke seluruh tubuh.
+\n
+b. Struktur jantung
+\n
+Bagian terluar jantung dibungkus oleh membran perikardium. Membran ini berupa kantong dengan lapisan ganda dan dapat membesar dan mengecil.\n
+Dinding jantung terdiri dari tiga lapisan, yaitu epikardium, miokardium, dan endokardium.
+Jantung memiliki empat ruangan, yaitu dua serambi dan dua bilik. Serambi berfungsi untuk menerima darah dari seluruh tubuh, sedangkan fungsi bilik adalah untuk memompa darah keluar jantung.\n
+Jantung terdiri dari tiga katup atau valvula, yaitu valvula bikuspidalis (terletak antara serambi kiri dan bilik kiri), valvula trikuspidalis (terletak antara serambi kanan dan bilik kanan), dan valvula semilunaris (terletak di pangkal aorta dan arteri).\n\n
+2. Pembuluh darah
+\n
+Pembuluh darah merupakan saluran tertutup yang bercabang-cabang. Fungsi pembuluh darah adalah mengalirkan darah keluar jantung lalu kembali lagi ke jantung. Terdapat tiga pembuluh darah utama, yaitu artieri, vena, dan kapiler. \n\n
+3. Kapiler
+\n
+Pembuluh kapiler memegang peranan penting dalam proses pertukaran zat di dalam darah.
+\n
+Fungsi kapiler : \n
+a.	Adapun fungsi kapiler adalah sebagai berikut.
+\n
+b.	Menjadi penghubunga antara arteriola dan venula.\n
+c.	Mengambil zat-zat yang dibutuhkan dari kelenjar.\n
+d.	Menjadi tempat terjadinya pertukaran zat antara darah dan cairan di dalam jaringan.\n
+e.	Menyaring darah di dalam ginjal.\n
+f.	Menyerap zat-zat makanan dari usus. \n
+Ciri-ciri kapiler : \n
+a)	Berbentuk halus. \n
+b)	Dinding selnya sangat tipis.\n
+c)	Memiliki diameter 0,008 mm.\n
+d)	Area kapiler sangat luas, sekitar 7.000 m2 pada orang dewasa. \n
+e)	Mekanisme Peredaran Darah pada Manusia
+Tentu saja persamaan reaksi dengan kata-kata di atas hanya dapat dipahami oleh orang yang memahami bahasa Indonesia saja. Agar persamaan reaksi dipahami oleh orang di seluruh dunia, dituliskan dalam bentuk simbol atau rumus sebagai berikut.
+        \n\nC(s) + O2(g) ----->  CO2(g)
+
+        \nSimbol-simbol tersebut menunjukkan karbon padat untuk C(s), gas oksigen untuk O2(g), dan gas karbon dioksida untuk CO2(g).
+
+        \nBerikut ini merupakan contoh beberapa peristiwa sehari-hari yang merupakan perubahan kimia atau reaksi kimia yakni: pembakaran, pembusukan, peragian, pengaratan dan fotosintesis.
+        "
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

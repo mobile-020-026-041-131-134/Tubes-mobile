@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kimia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Asam, Basa, dan Garam"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#FF7F50"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n \n1. Hasil reaksi antara asam klorida dan natrium hidroksida menghasilkan ….
+\n        a. Karbondioksida
+\n        b. Garam dapur
+\n        c. Baking soda
+\n        d. Deterjen
+\n
+\n2. Asam dan basa dapat dibedakan dari ….
+\n        a. Rasa dan sentuhan
+\n        b. Warna dan bentuk
+\n        c. Rasa dan warna
+\n        d. Warna dan panjang
+\n
+\n3. Basa mempunyai rasa ….
+\n        a. Asam
+\n        b. Pahit
+\n        c. Manis
+\n        d. Pedas
+\n
+\n4. Asam merupakan penyusun dari berbagai bahan berikut ini, kecuali  ….
+\n        a. Cuka
+\n        b. Keju
+\n        c. Bensol
+\n        d. Deterjen
+\n
+\n5. Basa adalah suatu senyawa yang jika dilarutkan dalam air (larutan) dapat melepaskan ion ….
+\n        a. Hidroksida
+\n        b. Positif
+\n        c. Negatif
+\n        d. Hidrogen
+\n
+\n6. Berikut ini yang tidak termasuk basa adalah ….
+\n        a. Aluminium hidroksida
+\n        b. Karbondioksida
+\n        c. Kalsium hidroksida
+\n        d. Magnesium hidroksida
+\n
+\n7. Zat atau partikel yang bermuatan dinamakan ….
+\n        a. Asam
+\n        b. Basa
+\n        c. Garam
+\n        d. Ion
+\n
+\n8. Rumus kimia Natrium hidroksida adalah ….
+\n        a. NaOH
+\n        b. Ca(OH)2
+\n        c. KOH
+\n        d. Mg(OH)2
+\n
+\n9. Larutan yang dapat menghantarkan listrik dinamakan larutan ….
+\n        a. Elektrolit
+\n        b. Isolator
+\n        c. Korosif
+\n        d. Metalit
+\n
+\n10. Reaksi antara asam dan basa akan menghasilkan ….
+\n        a. Logam dan air
+\n        b. Karat dan garam
+\n        c. Garam dan air
+\n        d. Air dan karbon
+
+
+
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

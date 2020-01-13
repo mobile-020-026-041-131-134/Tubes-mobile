@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/variable" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem Persamaan Linear Dua Variabel"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sistem Persamaan Linear Dua Variabel (SPLDV) terdiri atas dua persamaan linear dua variable, yang keduanya tidak berdiri sendiri, sehingga kedua persamaan hanya memiliki satu penyelesaian. Berikut ini adalah beberapa contoh SPLDV :
+            \n1. x + y = 3 dan 2x – 3y = 1\n2. 5x + 2y = 5 dan x = 4y – 21\n3. x = 3 dan x + 2y – 15 = 0\n4. x = y + 6 dan 2x – 7y = -8
+            \n5. 5x + 4y + 7 = 0 dan -3x – 2y = 4\nJadi, bentuk umum sistem persamaan linier dua variabel (SPLDV):
+            \nax+by=c\ndx+ey=f\nerdapat beberapa cara/metode untuk menyelesaikan permasalahan terkait Sistem Persamaan Linear Dua Variabel (SPLDV). Metode-metode tersebut diantaranya adalah
+            \n1. Metode Substitusi\n2. Metode Eliminasi\n3. Metode grafik
+            \n\n1. Metode Substitusi\nLangkah-langkah menyelesaikan SPLDV dengan metode substitusi:
+            \na. Mengubah salah satu persamaan menjadi bentuk y = ax + b atau x = cy + d
+            \nb. Substitusi nilai x atau y yang diperoleh pada langkah pertama ke persamaan yang lainnya
+            \nc. Selesaikan persamaan untuk mendapatkan nilai x atau y\nd.Substitusi nilai x atau y yang diperoleh pada langkah ketiga pada salah satu persamaan untuk mendapatkan nilai dari variabel yang belum diketahui
+            \nd. Penyelesaiannya adalah (x, y)
+            \nKedua persamaan itu adalah:\n•	2x + 3y = 8 persamaan (i)\n•	3x + y = 5 persamaan (ii)
+            \nPenyelesaian permasalahan dengan metode substitusi:\n Langkah 1: mengubah salah satu persamaan menjadi bentuk y = ax + b atau x = cy + d
+            Mengubah persamaan (ii) ke dalam bentuk y = ax + b\n3x + y = 5 → y = 5 – 3x
+            \nLangkah 2: substitusi y = 5 – 3x pada persamaan 2x + 3y = 8\n2x + 3(5 – 3x) = 8
+            \nLangkah 3: selesaikan persamaan sehingga diperoleh nilai x\n2x + 3(5 – 3x) = 8\n2x + 15 – 9x = 8\n2x – 9x = 8 – 15
+            \n– 7x = – 7 → x = 1\nLangkah 4: substitusi nilai x = 1 pada persamaan 2x + 3y = 8 (pilih salah satu, bebas, hasilnya akan sama)
+            \n2x + 3y = 8\n2(1) + 3y = 8\n2 + 3y = 8\n3y = 8 – 2\n3y = 6 → y = 2
+            \nLangkah 5: penyelesaiannya adalah (x, y)\nHasil yang diperoleh x = 1 dan y = 2, jadi penyelesaiannya adalah (1, 2)
+            \n\n2. Metode Eliminasi
+            \nSetiap metode yang digunakan untuk menyelesaikan SPLDV akan mendapatkan hasil akhir yang sama. Cara kedua untuk menyelesaikan SPLDV adalah menggunakan metode eliminasi. Secara ringkas, dalam metode eliminasi adalah menghilangkan salah satu variabel untuk mendapatkan nilai dari satu variabel lainnya. Bagaimanakah caranya? Simak lebih lanjut pada proses pengerjaan SPLDV dengan metode eliminasi berikut.
+            \nLangkah-langkah menyelesaikan SPLDV dengan metode eliminasi:
+            \nMenyamakan salah satu koefisien dari variabel x atau y dari kedua persamaan dengan cara mengalikan konstanta yang sesuai.
+            \nHilangkan variabel yang memiliki koefisien yang sama dengan cara menambahkan atau mengurangkan kedua persamaan.
+            \nUlangi kedua langkah untuk mendapatkan variabel yang belum diketahui.\nPenyelesaiannya adalah (x, y)
+            \nAkan digunakan soal yang sama untuk melihat proses pengerjaan SPLDV dengan metode eliminasi. Perhatikan kembali dua persamaan yang digunakan pada metode substitusi di atas.
+            \n•	2x + 3y = 8 persamaan (i)\n•	3x + y = 5 persamaan (ii)
+            \nPenyelesaian permasalahan dengan metode eliminasi:\nLangkah 1: menyamakan salah satu koefisien dari variabel x atau y dari kedua persamaan dengan cara mengalikan konstanta yang sesuai.
+            \n"
+            android:textSize="8pt"
+            android:drawableBottom="@drawable/spldv1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/spldv2"
+            android:text="Langkah 2: hilangkan variabel yang memiliki koefisien yang sama dengan cara menambahkan atau mengurangkan kedua persamaan"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/spldv3"
+            android:text="Langkah 3: ulangi kedua langkah untuk mendapatkan variabel yang belum diketahui"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Langkah 4: penyelesaiannya adalah (x, y)\nHasil yang diperoleh x = 1 dan y = 2, jadi penyelesaiannya adalah (1, 2)."
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/spldv4"
+            android:text="3. Metode Grafik\nLangkah 1: menggambar kedua grafik\nMenentukan titik potong pada kedua sumbu x dan y dari kedua persamaan.
+            \n"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/spldv5"
+            android:text="Langkah 2: Gambar garis lurus untuk kedua persamaan linear dalam bidang kartesius diberikan seperti gambar di bawah.\n"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Langkah 3: penyelesaiannya adalah (x, y)\nBerdasarkan gambar dapat diketahui bahwa titik potong berada pada x = 1 dan y = 2, jadi penyelesaiannya adalah (1, 2)."
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

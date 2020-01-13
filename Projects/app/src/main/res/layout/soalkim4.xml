@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kimia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Asam, Basa, dan Garam"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#FF7F50"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n \n1. Zat-zat yang berekasi disebut sebagai ….
+\n        A.  hasil reaksi
+\n        B.  reaktan
+\n        C.  produk
+\n        D.  simultan
+\n
+\n2. Bilangan yang mendahului rumus kimia zat dalam persamaan reaksi dinamakan ….
+\n        A.  koefisien muai
+\n        B.  koefisien reaksi
+\n        C.  koefisien volume
+\n        D.  koefisien ruang
+\n
+\n3. Reaksi dua atau lebih zat yang tergabung membentuk zat lain disebut ….
+\n        A.  reaksi penguraian
+\n        B.  reaksi penggabungan
+\n        C.  reaksi kimia
+\n        D.  reaksi netralisasi
+\n
+\n4. Reaksi yang menghasilkan zat yang terurai menjadi lebih sederhana disebut ….
+\n        A.  reaksi penguraian
+\n        B.  reaksi penggabungan’
+\n        C.  reaksi kimia
+\n        D.  reaksi netralisasi
+\n
+\n5. Zat-zat yang merupakan hasil reaksi disebut ….
+\n        A.  produk
+\n        B.  reaktan
+\n        C.  katalis
+\n        D.  input
+\n 6. Berikut ini merupakan ciri-ciri terjadinya suatu reaksi kimia, kecuali ….
+\n        A.  terbentuknya gas
+\n        B.  terbentuknya endapan
+\n        C.  terjadinya perubahan warna
+\n        D.  tidak adanya perubahan suhu
+\n
+\n7. Gas yang dihasilkan oleh reaksi pembakaran dalam tubuh manusia adalah ….
+\n        A.  karbon monoksida
+\n        B.  karbon dioksida
+\n        C.  gas hidrogen
+\n        D.  gas neon
+\n
+\n8. Endapan pada suatu reaksi kimia dapat terbentuk karena adanya zat hasil reaksi yang berupa ….
+\n        A.  gas
+\n        B.  zat cair
+\n        C.  zat padat
+\n        D.  koloid
+\n
+\n9. Kerapatan molekul suatu zat mengakibatkan reaksi yang terjadi semakin ….
+\n        A.  sedang
+\n        B.  lambat
+\n        C.  cepat
+\n        D.  lemah
+\n
+\n10. Laju reaksi merupakan perubahan ….
+\n        A.  massa zat reaksi pada waktu tertentu
+\n        B.  konsentrasi suatu reaksi
+\n        C.  energi zat pereaksi pada waktu tertentu
+\n        D.  volume zat reaksi pada waktu tertentu
+
+\n       \n       \n
+\n Kunci Jawaban:
+\n 1. A
+\n 2. B
+\n 3. B
+\n 4. A
+\n 5. A
+\n 6. D
+\n 7. B
+\n 8. C
+\n 9. C
+\n 10. B
+
+
+
+
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

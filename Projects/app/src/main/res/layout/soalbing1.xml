@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/english" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Prohibition"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#A52A2A"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n Choose the right answer between a, b, c, or d
+\n
+\n1. DUE TO MANY SHARP CORALS, THE VISITOR ARE PROHIBITED TO SWIM ALONG THIS AREA
+\n   Where do we usually find the text?
+\n       a. At the lake
+\n       b. At the beach
+\n       c. At the river bank
+\n       d. At the swimming pool
+\n
+\n2. PLEASE DON’T LEAN AGAINTS THE DOOR
+\n    What is the purpose of the text?
+\n       a. To warn people not to push the door
+\n       b. To advice people not to sit beside the door
+\n       c. To warn people not to lean againts the door
+\n       d. To advice people not to stand before the door
+\n
+\n3. DANGEROUS !
+\n  DO NOT TOUCH
+\n  What is the purpose of the text?
+\n       a. to ask somebody to do something
+\n       b. to warn somebody not to do something
+\n       c. to advise somebody not to do something
+\n       d. to inform somebody that something is not dangerous
+\n
+\n 4.RIGHT LANE ONLY TO PRECEDE BEWARE
+\n    What does the warning mean?
+\n       a. drivers should obey the speed limit
+\n       b. drivers should use the left lane to precede
+\n       c. right lane is only to overtake other vehicles
+\n       d. drivers should use the right lane before stopping
+\n
+\n 5.KEEP THE DISTANCE THIS BIG VEHICLE BRINGS FLAMMABLE FLUID
+\n    What does the text mean?
+\n       a. the truck is big
+\n       b. the truck brings fluild gas
+\n       c. other vehicles should run faster than the truck
+\n       d. other vehicles should be far enough from the truck
+\n
+\n 6. The following warning means that pedestrians should…the grass. KEEP OF THE GRASS
+\n       a.not cut
+\n       b. not keep
+\n       c.not water
+\n       d. not walk on
+\n
+\n 7.You find this notice at the gate of a housing complex ACCESS FOR RESIDENTS ONLY
+\n    It means that only the…who own the houses at the housing complex can go there.
+\n       a.Security guards
+\n       c. people
+\n       b.Participants
+\n       d. guests
+\n
+\n 8. Warning. Do not aim the camera directly into the sun or at other intense light resources that could damage your eyesight
+\n    The warning means….
+\n       a.It will be good if we take the picture of the sun
+\n       b.It will be better if we take the picture of other intense light sources
+\n       c.If we aim the camera directly into the sun, the sun will have a problem
+\n       d.Our eyes might be in danger if the camera is aimed into the sun or intense light
+   resources
+\n
+9. AFTER CLOSING TIME RETURN THE BOOK HERE. Read the following notice. Its put in the library
+   What does the notice means?
+\n       a.You cannot return the borrowed books it the library is closed
+\n       b.The library return service is available after hours only
+\n       c.You should put the books here if you return them after the closing time
+\n       d.You can borrow books from this counter even if the library is closed
+\n
+\n 10. FLAMMABLE. KEEP SUBSTANCES AWAY FROM FIRE
+\n    Where do you usually find the cautions above?
+\n       a.At the stationary
+\n       b.At the bus station
+\n       c.At a petrol station
+\n       d.At a police station
+
+\n       \n       \n
+\n Answer Key:
+\n 1. B
+\n 2. C
+\n 3. B
+\n 4. C
+\n 5. D
+\n 6. D
+\n 7. C
+\n 8. D
+\n 9. C
+\n 10. C
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

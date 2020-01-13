@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kimia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reaksi Kimia"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#FF7F50"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="234dp"
+            android:layout_margin="10dp"
+            android:text="Istilah asam (acid) berasal dari bahasa Latin acetum yang berarti cuka. Tentunya Anda sudah tahu bagaimana rasa cuka tersebut. Selain cuka, buah-buahan yang masih muda pada umumnya berasa masam. Sebenarnya rasa masam dalam buah-buahan tersebut disebabkan karena zat kimia yang terkandung di dalamnya yang biasa disebut asam."
+            android:textColor="#696969"
+            android:textSize="9pt" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kim" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="144dp"
+            android:layout_margin="10dp"
+            android:text="Sifat-sifat kimia suatu zat hanya dapat diamati jika zat tersebut mengalami perubahan komposisinya atau mengalami perubahan kimia. Perubahan komposisi suatu zat atau perubahan kimia lebih sering disebut dengan reaksi kimia. Dalam suatu reaksi kimia, satu atau lebih zat berubah menjadi zat-zat baru. Dalam hal ini, zat-zat yang mengalami perubahan disebut pereaksi (reaktan) dan zat-zat yang baru terbentuk disebut hasil reaksi.
+\n\nSuatu reaksi kimia biasa digambarkan dalam bentuk persamaan reaksi. Dalam suatu persamaan reaksi tercantum pereaksi yang ditulis di sebelah kiri dan hasil reaksinya yang ditulis di sebelah kanan. Dalam suatu persamaan reaksi, tertulis pula arah perubahannya yang disimbolkan dengan tanda anak panah.
+\n\nSebagai contoh, perubahan kimia yang terjadi saat pembakaran sate menggunakan arang. Persamaan reaksinya dapat ditulis dalam bentuk kata-kata sebagai berikut. Tentu saja persamaan reaksi dengan kata-kata di atas hanya dapat dipahami oleh orang yang memahami bahasa Indonesia saja. Agar persamaan reaksi dipahami oleh orang di seluruh dunia, dituliskan dalam bentuk simbol atau rumus sebagai berikut.
+\n\nC(s) + O2(g) ----->  CO2(g)
+
+\nSimbol-simbol tersebut menunjukkan karbon padat untuk C(s), gas oksigen untuk O2(g), dan gas karbon dioksida untuk CO2(g).
+
+\nBerikut ini merupakan contoh beberapa peristiwa sehari-hari yang merupakan perubahan kimia atau reaksi kimia yakni: pembakaran, pembusukan, peragian, pengaratan dan fotosintesis.
+ "
+        android:textColor="#696969"
+        android:textSize="8pt" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="88dp"
+            app:srcCompat="@drawable/kim2" />
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

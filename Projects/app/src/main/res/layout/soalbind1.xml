@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/indonesia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Penggunaan Huruf Kapital"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#4169E1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="\n \n 1.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a.  Pada Hari Minggu aku ikut ayah ke kota.
+\n b.  Pada hari Minggu aku ikut Ayah ke kota.
+\n c.  Pada hari minggu aku ikut Ayah ke kota.
+\n d.  Pada hari minggu aku ikut ayah ke kota.
+\n
+\n 2.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a.  Ayah membeli sapi ke kabupaten boyolali.
+\n b.  Ayah membeli Sapi ke Kabupaten Boyolali.
+\n c.  Ayah membeli sapi ke kabupaten Boyolali.
+\n d.  Ayah membeli sapi ke Kabupaten Boyolali.
+\n
+\n 3.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a.  Orang suku Jawa itu pandai bahasa Sunda.
+\n b.  Orang Suku Jawa itu pandai Bahasa Sunda.
+\n c.  Orang suku jawa itu pandai bahasa sunda.
+\n d.  Orang suku Jawa itu pandai Bahasa Sunda.
+\n
+\n 4.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a.  Aku bangga menjadi bangsa Indonesia.
+\n b.  Aku bangga menjadi Bangsa Indonesia.
+\n c.  Aku bangga menjadi bangsa indonesia.
+\n d.  Aku Bangga menjadi bangsa Indonesia.
+\n
+\n 5.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a.   Ayah menanam bunga mawar dan melati.
+\n b.   Ayah menanam bunga Mawar dan Melati.
+\n c.   Ayah menanam Bunga Mawar dan Melati.
+\n d.   Ayah menanam Bunga mawar dan melati.
+\n
+\n 6.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a. Pulau Jawa dan Pulau Bali dipisahkan selat.
+\n b. Pulau Jawa dan pulau Bali dipisahkan selat.
+\n c. Pulau Jawa dan Pulau Bali dipisahkan Selat.
+\n d. Pulau Jawa dan pulau Bali dipisahkan Selat.
+\n
+\n 7.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a. Orang yang pandai tari jaipong itu mau menjadi presiden.
+\n b. Orang yang pandai Tari Jaipong itu mau menjadi presiden.
+\n c. Orang yang pandai tari Jaipong itu mau menjadi presiden.
+\n d. Orang yang pandai tari Jaipong itu mau menjadi Presiden.
+\n
+\n 8.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a. Aku percaya kepada Tuhan Yang Maha kuasa.
+\n b. Aku percaya kepada Tuhan yang Maha Kuasa.
+\n c. Aku percaya kepada Tuhan Yang Mahakuasa.
+\n d. Aku percaya kepada Tuhan yang Maha Kuasa.
+\n
+\n 9.  Manakah kalimat yang menggunakan ejaan secara benar?
+\n a. Umat agama Islam beribadah di masjid.
+\n b. Umat Agama Islam beribadah di masjid.
+\n c. Umat agama Islam beribadah di Masjid.
+\n d. Umat Agama Islam beribadah di Masjid.
+\n
+\n 10. Manakah kalimat yang menggunakan ejaan huruf kapital secara benar?
+\n a. Peringatan hari Kartini dilakukan pada 21 April.
+\n b. Peringatan Hari Kartini dilakukan pada 21 april.
+\n c. Peringatan Hari Kartini dilakukan pada 21 April.
+\n d. Peringatan hari kartini dilakukan pada 21 april.
+
+\n\n\n Kunci Jawaban
+\n   1.A
+\n   2.B
+\n   3.A
+\n   4.C
+\n   5.D
+\n   6.C
+\n   7.C
+\n   8.A
+\n   9.A
+\n   10.B
+
+
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>

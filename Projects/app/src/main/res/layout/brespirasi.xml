@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/biology" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem Respirasi Manusia"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#2E8B57"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="1725dp"
+            android:layout_margin="10dp"
+            android:text="Bernapas adalah proses pengambilan O2 dari lingkungan dan pengeluaran CO2 dan uap air dari dalam tubuh ke lingkungan.\n
+Respirasi adalah proses pembakaran (oksidasi) senyawa organik di dalam sel guna memperoleh energi. Respirasi bertujuan menghasilkan energi. Energi hasil respirasi tersebut sangat diperlukan untuk aktivitas hidup seperti mengatur suhu tubuh, pergerakan, pertumbuhan, dan reproduksi. \n
+\n
+Jalur udara pernapasan untuk menuju sel-sel tubuh adalah:\n\n
+Rongga hidung → faring (rongga tekak) → laring → trakea (batang tenggorok) → bronkus → paru-paru → alveolus →sel-sel tubuh.
+\n\nAliran udara dari udara bebas ke paru-paru dan sebaliknya, ditentukan oleh perubahan tekanan udara dalam rongga paru-paru, rongga dada, dan rongga perut. Perubahan tekanan disebabkan oleh terjadinya perubahan volume setiap ruangan. Perubahan volume setiap ruangan ini diatur oleh otot-otot pernapasan yaitu otot antar tulang rususk, otot diafragma, dan otot dinding perut.
+A.	Pernafasan Dada\n
+Pada pernapasan dada, otot yang berperan aktif adalah otot tulang antar  rusuk. Otot ini dapat dibedakan menjadi dua yaitu otot antar tulang rusuk luar yang berperan mengangkat tulang-tulang rusuk dan otot antar tulang rusuk dalam yang berperan menurunkan tulang rusuk ke posisi semula.\n
+Bila otot antar tulang rusuk luar berkonstraksi, tulang rusuk terangkat hingga volume udara rongga dada bertambah besar. Hal ini menyebabkan tekanan udara rongga dada menjadi kecil dari tekanan udara rongga paru-paru, sehingga mendorong paru-paru mengembang dan mengubah tekanannya menjadi lebih kecil dari pada tekanan udara bebas. Dari semua proses ini, selanjutnya akan terjadi aliran udara dari luar ke dalam rongga paru-paru melalui rongga hidung, batang tenggorok, bronkus dan alveolus. Proses ini disebut inspirasi.\n
+Bila otot antar tulang rusuk dalam berkonstraksi dan otot-otot antar tulang rusuk bagian luar relaksasi, tulang rusuk tertarik ke posisis semula sehingga mendesak dinding paru-paru. Akibatnya rongga paru-paru mengecil dan menyebabkan tekanan udara di dalamnya meningkat. Hal ini yang menyebabkan udara dalam rongga paru-paru terdorong ke luar. Proses ini disebut ekspirasi.  \n\n
+B.	Pernafasan Perut\n
+Pada pernafasan perut, otot yang berperan aktif adalah otot diafragma dan otot dinding rongga perut. Bila otot diafragma berkontraksi, posisi diafragma akan mendatar. Hal ini menyebabkan volume rongga dada bertambah besar, sehingga tekanan udara di dalamnya mengecil. Penurunan tekanan udara akan diikuti mengembangnya paru-paru. Hal ini menyebabkan terjadinya aliran udara ke dalam paru-paru (inspirasi).\n
+Bila otot diafragma berelaksasi dan otot dinding perut berkonstraksi, isi rongga perut akan terdesak ke arah diafragma, sehingga posisi diafragma akan cekung ke arah rongga dada. Hal ini menyebabkan volume rongga dada mengecil dan tekanannya meningkat, sehingga menyebabkan isi rongga paru-paru terdorong ke luar dan terjadilah ekspirasi.\n
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

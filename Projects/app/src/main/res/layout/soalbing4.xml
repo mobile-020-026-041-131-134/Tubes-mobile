@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/english" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Past Perfect Tense"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#A52A2A"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n \nChange the question into Past Perfect Tense!
+\n
+\n 1. I was sleeping when somebody knocked the door.
+\n       A. I was slept when somebody knocked the door.
+\n       B. I had slept when somebody knocked the door.
+\n       C. I have slept when somebody knocked the door.
+\n
+\n 2. I was working when Shanti came.
+\n       A. I had not work when Shanti came.
+\n       B. I had not worked when Shanti come.
+\n       C. I had not worked when Shanti came.
+\n
+\n 3. Budi had lived in Bali.
+\n       A. Had Budi Live in Bali?
+\n       B. Had Budi lived in Bali?
+\n       C. Is Budi living in Bali?
+\n
+\n 4. My father had eaten before I worked.
+\n       A. Hadn’t my father eaten before I worked?
+\n       B. Hadn’t my father ate before I worked?
+\n       C. Had my father not eat before I worked?
+\n
+\n 5. The mechanic had been repairing my car.
+\n       A. The mechanic had repaired my car.
+\n       B. The mechanic had repair my car.
+\n       C. The mechanic has been repairing my car.
+\n
+\n 6. Semua siswa telah belajar sebelum guru mereka memberikan kuis.
+\n       A. All students had study before their teacher given a quiz.
+\n       B. All students had studied before their teacher give a quiz.
+\n       C. All students had studied before their teacher gave a quiz.
+\n \n
+7. Ayahku belum datang ketika Ibuku pergi ke pasar.
+\n       A. My father had not came when my mother go to the market.
+\n       B. My father had not come when my mother went to the market.
+\n       C. My father had not came when my mother went to the market.
+\n
+\n 8. Tria mandi setelah dia main basket.
+\n       A. Tria had taken a bath after she played basketball.
+\n       B. Tria took a bath after she had played basketball.
+\n       C. Tria take a bath after she play basketball.
+\n
+\n 9. Saya bertemu Budi setelah saya menghadiri sebuah pesta.
+\n       A. I meet Budi after I had attended a party.
+\n       B. I had met Budi after I attended a party.
+\n       C. I met Budi after I had attended a party.
+\n
+\n10. Apakah Dina belum membaca buku itu ketika saya meminjamnya?
+\n       A. Had Dina not read that book when I borrowed?
+\n       B. Had Dina not readed that book when I borrowed?
+\n       C. Had Dina not readed that book when I borrow?
+
+\n\n\nKey answer:
+\n 1. B
+\n 2. C
+\n 3. B
+\n 4. A
+\n 5. A
+\n 6. C
+\n 7. B
+\n 8. B
+\n 9. C
+\n 10. A
+
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

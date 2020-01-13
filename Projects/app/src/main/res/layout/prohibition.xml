@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/english" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prohibition"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#A52A2A"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="\n Prohibition adalah sebuah kalimat larangan atau peringatan bagi orang lain untuk tidak melakukan sesuatu.
+             \nContohnya: 'Don't touch me!' , 'Don't be lazy!', dan 'Don't step the grass'.
+             \n Kalimat prohibition ini biasanya di awali dengan kalimat 'don't' atau 'do not' yang artinya jangan. Prohibition ini sendiri dibagi kedalam tiga jenis yaitu yang pertama ialah verbal prohibition, nominal prohibition, dan prohibition no + verb-ing.
+\n \n
+1. Verbal Prohibition\n
+Verbal Prohibition ini menggunakan kata kerja (verb) di dalam kalimatnya, prohibition selalu menggunakan verb 1. Ingat, kalimatnya harus dimulai dengan don't atau do not. Maka akan didapat rumus verbal prohibition seperti ini: Don't + Verb 1
+\n
+•	Don't touch me! (jangan sentuh aku!)
+\n
+•	Don't cry! (jangan menangis!)
+•	\n
+•	Don't come late! (jangan datang terlambat!)\n
+•	Don't step in the grass! (jangan menginjak rumput!)\n
+\n
+Jika kalian ingin membuat kalimat larangan ini menjadi polite prohibition atau kalimat larangan yang lebih lembut atau sopan. Kalian bisa menambahkan kata 'please' di dalamnya. Contohnya seperti: \n
+•	Please don't leave me alone (tolong jangan tinggalkan aku sendirian) \n
+•	Please don't go (tolong jangan pergi) \n
+•	Please stay with me (tolong tinggalah bersamaku) \n
+•	Please don't cry (tolong jangan menangis) \n \n \n
+
+2. Nominal Prohibition\n
+Nominal Prohibition adalah kalimat larangan yang mengandung kata Adverb (Kata Keterangan), Noun (Kata Benda), dan Adjective (Kata Sifat). Maka rumusnya ialah Don't + be + Adverb/Noun/Adjective. Berikut adalah contoh kalimat nominal prohibition. \n
+•	Don't be late! (jangan terlambat!) \n
+•	Don't be sad! (jangan bersedih!) \n
+•	Don't be lazy! (jangan malas!) \n
+•	Don't be a stupid person (jangan jadi orang yang bodoh!) \n \n
+Jika kalian ingin mengubahnya kedalam polite prohibition, tinggal di tampahkan please di belakang atau di depan kalimat. \n \n \n
+
+3. Prohibition 'No + Verb-Ing' \n
+Selain bentuk verbal dannominal prohibition ada juga prohibition yang di bentuk dari No + verb-ing. Makna 'No' disini sama artinya dengan 'don't' yang artinya jangan. Berikut contoh kalimatnya: \n
+•	No smoking! (dilarang merokok) \n
+•	No fishing (dilarang memancing) \n
+•	No littering (dilarang membuang sampah) \n
+•	No feeding (jangan memberi makan) \n
+
+
+
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

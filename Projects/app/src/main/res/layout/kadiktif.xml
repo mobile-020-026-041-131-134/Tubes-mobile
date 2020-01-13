@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kimia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adiktif dan Psikoterapi"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#FF7F50"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="359dp"
+            android:layout_margin="10dp"
+            android:text="Narkoba adalah singkatan dari Narkotika dan Obat Berbahaya. Dari namanya sendiri aja kalian udah tahu kalau Narkoba itu berbahaya. Narkoba adalah zat kimia yang dapat mengubah keadaan psikologi, seperti suasana hati, pikiran, dan lain lain jika masuk ke dalam tubuh dengan cara dihirup, disuntik, dimakan, diminum, dan lain sebagainya.
+            \n\nZat adiktif adalah zat yang dapat menyebabkan adiksi (Kecanduan) pada penggunanya. Zat ini merupakan bahan kimia yang dapat digunakan dalam pembuatan narkotika."
+            android:textColor="#696969"
+            android:textSize="9pt" />
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

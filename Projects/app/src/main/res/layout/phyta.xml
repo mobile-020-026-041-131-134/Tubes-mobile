@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/pythagorus" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teorema Phytagoras"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Teorema Phytagoras adalah teori yang menunjukan antara sisi-sisi dalam segitiga siku-siku. Selain dalam matematika, Phytagoras juga digunakan dalam bidang ilmu lainnya seperti fisika, astronomi dan lain sebagainya. Phytagoras juga tidak hanya digunakan untuk menghitung bidang dua dimensi, ini juga digunakan dalam perhitungan bangun 3 dimensi.
+                           \nTeorema Phytagoras ini pertama kali ditemukan oleh seorang ahli matematika berkebangsaan Yunani bernama Phytagoras."
+            android:textSize="8pt" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Bunyi dan Rumus Teorema Phytagoras\n\nTeorema Phytagoras menjelaskan mengenai hubungan antara panjang sisi pada segitiga siku-siku. Bunyi Teorema Phytagoras yaitu “Pada segitiga siku-siku, kuadrat sisi terpanjang adalah sama dengan jumlah kuadrat sisi-sisi penyikunya.\nDengan teorema tersebut, maka hubungan sisi-sisi dalam segitiga siku-siku dapat ditulis:"
+            android:drawableBottom="@drawable/s3phyta"
+            android:drawablePadding="8dp"
+            android:textSize="8pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="BC2 = AC2 + AB2\na2 = b2 + c2
+            \nKeterangan:\nBC = sisi terpanjang atau hipotenusa\nAC dan AB = sisi penyiku
+            \nContoh Soal:
+            \n1.Sebuah kapal berlayar sejauh 15 km ke arah Utara, lalu berbelok kearah Barat sejauh 36 km. hitunglah berapa jarak dari titik awal keberangkatan kapal ke titik akhir!"
+            android:drawableBottom="@drawable/pytha1"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Penyelesaiannya:
+            \nDiketahui :AB = 15 km\nBC = 36 km
+            \nDitanya? : Jarak titik awal ke akhir = AC
+            \nJawab :"
+            android:drawableBottom="@drawable/pytha2"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="2. Sebuah tangga yang memiliki panjang 14 m bersandar dinding, jarak ujung tangga bagian atas ke lantai ialah 10 m. tentukan jarak kaki tangga ke dinding!
+            \nPenyelesaiannya:\nDiketahui :
+            \nTangga (PQ) = 14 m\nJarak tangga ujung tangga ke lantai ( QR) = 10m
+            \nDitanya : Jarak kaki tangga ke dinding = PQ..?
+            \nJawab :\nPQ=√(PR^2-QR^2 )"
+            android:drawableTop="@drawable/pytha3"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

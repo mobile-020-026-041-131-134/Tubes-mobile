@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/english" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opinion"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#A52A2A"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="
+
+\n What is Opinion? \n
+Opinion dalam bahasa indonesia berarti opini yang maknanya  pendapat atau pandangan maupun anggapan seseorang terhadap suatu peristiwa atau permasalahan tertentu. Namun pandangan atau opini seseorang bisa jadi berbeda-beda. Hal ini tergantung dari sudut pandang yang digunakan oleh masing-masing orang. \n\n
+
+Ciri - Ciri Opinion\n
+•	Kurang dapat untuk dibuktikan kebenarannya\n
+•	Bersifat Objektif \n
+•	Berdasarkan perasaan, perkiraan, atau kemungkinan\n \n
+
+Contoh Kalimat Expressing Opinion\n
+•	In my opinion..... \n
+•	I think..... \n
+•	What I mean is..... \n
+•	Personally I think..... \n
+•	In my experience..... \n
+•	According to me..... \n
+•	I strongly believe that..... \n
+•	As far as I am concerned..... \n
+•	From my point of view..... \n
+•	As I understand..... \n
+•	As I see it..... \n
+•	I reckon..... \n
+•	I am compelled to say..... \n
+•	By this I mean..... \n
+•	To my mind..... \n
+•	Would like to point out that..... \n
+•	In my humble opinion..... \n\n
+Agreeing with an Opinion (Setuju dengan sebuah opini) \n
+•	Of course. \n
+•	This is absolutely right. \n
+•	I agree with this opinion. \n
+•	I couldn't agree more. \n
+•	I agree with what you are saying. \n
+•	I agree, I never thought of that. \n
+•	Neither do I. \n
+•	That's a good point. \n
+•	I think so too. \n\n
+
+Disagreeing with an opinion (Tidak setuju dengan sebuah opini) \n
+•	I am sorry, I don't agree with you. \n
+•	I am not sure I agree with you. \n
+•	I don't agree with you. \n
+•	I am afraid I have to disagree with you. \n
+•	I do not believe that. \n
+•	By this I mean..... \n
+•	I disagree with you. \n
+•	I think you are wrong. \n
+•	That's not the same thing at all. \n
+•	It is not justified to say so. \n
+•	I am not convinced that..... \n
+•	I can't say I agree with this, and here's why. \n
+
+\n Contoh Dialog Expressing Opinion\n
+Alika : Hi Alika, Have you heard about the new cinema in Cimahi. \n
+Nur : Yes I have. \n
+Alika : And what do you think about it? \n
+Nur : I think that it is good have a cinema in our city. So we don't have to go to bandung in just watching a movie. \n
+Alika : I am sorry but I am not sure about your opinion. \n
+Nur : Why? Then what do you think about it? \n
+Alika : You know it is the very first cinema build in Cimahi right? So i think it will be really \n crowded because everyone in town will go there to watch a movie. \n
+Nur : Yes, I think you right about it. \n \n
+
+Terjemahan: \n
+Alika: Hai Alika, Pernahkah kamu mendengar tentang bioskop baru di Cimahi. \n
+Nur: Ya, saya pernah. \n
+Alika: Dan apa yang kamu pikirkan tentang hal itu? \n
+Nur: Saya berpikir bahwa itu adalah baik memiliki bioskop di kota ini. Jadi kita tidak perlu \n pergi ke bandung hanya menonton film. \n
+Alika: Saya minta maaf tapi saya tidak yakin tentang pendapat kamu. \n
+Nur: Mengapa? Lalu apa yang kamu pikir tentang hal ini? \n
+Alika: Kamu tahu, itu adalah bioskop yang pertama kali dibuat di cimahi? Jadi saya pikir itu \n akan benar-benar ramai karena semua orang di kota akan pergi ke sana untuk menonton film. \n
+Nur: Ya, aku pikir kamu benar tentang hal itu. \n \n
+
+
+
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

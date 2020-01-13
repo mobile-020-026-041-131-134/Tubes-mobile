@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/maths" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pecahan"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan1"
+            android:text="Bilangan pecahan adalah bilangan yang dapat dinyatakan dalam bentuk a/b dengan a,b bilangan bulat dan b ≠ 0. Bilangan a disebut pembilang dan bilangan b disebut penyebut.
+                           \nContoh :\n9/12————> Pecahan\n4/2————> Pecahan, nilai nya 2\n5% ————> Pecahan, karena dapat dibentuk menjadi 5/100
+                           \n\n1. Pecahan Senilai\nPecahan senilai adalah pecahan yang memiliki nilai yang sama.
+                           \n1/3=  1X2/3X2=  2/6—————-> 1/3 dan   2/6 adalah pecahan senilai.
+                           \n4/6=  (4:2)/(6:2)=  2/3—————-> 4/ 6 dan   2/3adalah pecahan senilai.
+                           \n12/15=  (12:3)/(15:3)=  4/5—————-> 12/15 dan   4/5 adalah pecahan senilai.
+                           \n\nDari uraian tersebut, dapat disimpulkan bahwa:\nUntuk memperoleh pecahan-pecahan yang senilai dapat dilakukan dengan mengalikan atau membagi penyebut dan pembilang dengan bilangan yang sama.
+                           \nSecara umum dapat dituliskan:\nBila diketahui, pecahan a/b  dengan b ≠ 0 maka berlaku    a/b=(a×m)/(b×n)  atau   a/b=an/bm, dimana n dan m konstanta positif bukan nol."
+            android:textSize="8pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan2"
+            android:text="2. Menyederhanakan Pecahan\nSebelumnya kalian sudah mengetahui cara menentukan pecahan senilai, yaitu dengan mengalikan atau membagi pecahan tersebut dengan konstanta positif bukan nol.
+                         \nSekarang perhatikan cara menentukan pecahan-pecahan senilai berikut:\n"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Pecahan 2/3  pada pengerjaan tersebut tidak bisa dibagi lagi dengan bilangan lain selain nol. Dalam hal ini, 2/3  adalah pecahan paling sederhana dari  24/36.
+                         \nUntuk memperoleh pecahan 2/3, pecahan 24/36  harus dibagi dengan 12, dimana 12 merupakan FPB dari 24 dan 36.
+                         \nSehingga bisa dituliskan:\nDalam menyederhanakan pecahan sebarang   a/b, b ≠ 0. Berlaku  a/b = an/bn, dimana n adalah FPB dari a dan b."
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan3"
+            android:text="3. Penjumlahan Pecahan\na. Penjumlahan Pecahan Biasa\n"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan4"
+            android:text="Untuk pecahan yang mempunyai penyebut sama, maka tinggal tambahkan saja pembilangnya tanpa mengutak atik penyebutnya. Gambar yang ada di sebelah kanan merupakan pecahan biasa yang mempunyai penyebut sama, sehingga kita tidak perlu mengoperasikan hal lain, cukup jumlahkan pembilang.
+            \nSementara itu, untuk pecahan yang mempunyai penyebut berbeda, maka:
+            \nSamakan terlebih dahulu penyebutnya dengan mencari KPK.\nKalikan pembilang dengan bilangan yang sama dengan penyebut.
+            \nContoh:\nDua pecahan berikut mempunyai penyebut 5 dan 3 sehingga KPK adalah 15."
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan5"
+            android:text="b. Penjumlahan Pecahan Campuran\n
+            Untuk menjumlahkan pecahan campuran, maka:\nUbah pecahan campuran ke pecahan biasa.\nSamakan penyebut dengan memanfaatkan KPK dan kalikan pembilang dengan bilangan yang sama dengan penyebut.
+            \nJumlahkan pembilang.\nContoh Soal:\n"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan6"
+            android:text="4. Pengurangan Pecahan\n
+           Bagaimana dengan pengurangan pecahan? Adalah sama prosedurnya seperti penjumlahan pecahan.\nBedanya, untuk pengurangan maka pembilangnya dikurang.
+           \nContoh soal untuk pecahan biasa dan campuran:\n"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan7"
+            android:text="5. Perkalian Pecahan\n
+            a. Perkalian Pecahan Biasa dengan Bilangan Bulat
+            \n perhatikan contoh berikut."
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan8"
+            android:text="b. Perkalian Pecahan Biasa dengan Pecahan Biasa
+            \n"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan9"
+            android:text="Perhatikaan gambar di atas. DIketahui sebuah persegi yang sisinya 1 satuan dibagi menjadi 6 bagian yang sama. Luas daerah yang diarsir adalah 1/6 dari luas daerah seluruh persegi. Secara matematis dinyatakan sebagai berikut.
+            \n1/2  ×  1/3=  (1×1)/(2×3)=1/6
+            \nJadi, secara matematis, bentuk umum perkalian pecahan biasa dengan pecahan biasa dapat dinyatakan dalam bentuk rumus berikut.
+            \n"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan10"
+            android:text="c. Perkalian Pecahan Biasa dengan Pecahan Campuran
+            \nPada perkalian pecahan jika terdapat pecahan campuran, maka yang harus dilakukan terlebih dahulu adalah mengubah bentuk pecahan campuran tersebut menjadi bentuk pecahan biasa.
+            \nSekarang coba kalian perhatikan contoh berikut."
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableBottom="@drawable/pecahan11"
+            android:text="6. Pembagian Pecahan\n
+            Untuk pembagian pecahan dengan pecahan kita gunakan aturan invers perkalian sebagai berikut.
+            \n perhatikan contoh berikut."
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

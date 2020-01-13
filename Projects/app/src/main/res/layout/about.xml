@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidehz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button_back2"
+        android:stateListAnimator="@null"
+        app:layout_constraintBottom_toTopOf="@+id/guidehz"
+        app:layout_constraintEnd_toStartOf="@+id/guidev4"
+        app:layout_constraintStart_toStartOf="@+id/guidev1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/abouttext"
+        android:layout_width="280dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/gothic"
+        android:text="About"
+        android:textStyle="bold"
+        android:textColor="@color/utama2"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guidehz"
+        app:layout_constraintEnd_toStartOf="@+id/guidev2"
+        app:layout_constraintStart_toStartOf="@+id/guidev3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/created"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/gothic"
+        android:gravity="center"
+        android:text="Belajar KUY developed by:"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/guidehz2"
+        app:layout_constraintEnd_toStartOf="@+id/guidev2"
+        app:layout_constraintStart_toStartOf="@+id/guidev1"
+        app:layout_constraintTop_toTopOf="@+id/guidehz4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidehz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidehz3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/gothic"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.3"
+        android:text="\t- Bora Sejati Siboro \n\t\t[161402020]\n\t- Enike D. Sembiring \n\t\t[161402026]\n\t- Gabriela Dwi Lady br. Sembiring \n\t\t[161402041]\n\t- Agnes Manurung \n\t\t[161402131]\n\t- Grace Florence \n\t\t[161402134]"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/guidehz5"
+        app:layout_constraintEnd_toStartOf="@+id/guidev2"
+        app:layout_constraintStart_toStartOf="@+id/guidev1"
+        app:layout_constraintTop_toBottomOf="@+id/created" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidev4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.16" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidehz4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidehz5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="259dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/gothic"
+        android:textColor="@color/utama2"
+        android:gravity="center"
+        android:text="&#169;2020 Belajar KUY. All rights reserved"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guidev2"
+        app:layout_constraintStart_toStartOf="@+id/guidev1"
+        app:layout_constraintTop_toTopOf="@+id/guidehz5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidehz6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        app:layout_constraintBottom_toTopOf="@+id/created"
+        app:layout_constraintEnd_toStartOf="@+id/guidev2"
+        app:layout_constraintStart_toStartOf="@+id/guidev1"
+        app:layout_constraintTop_toTopOf="@+id/guidehz"
+        app:srcCompat="@drawable/logo1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

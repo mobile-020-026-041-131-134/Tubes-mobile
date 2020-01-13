@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/fisika1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bunyi Pantul"
+            android:textColor="#9400D3"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="359dp"
+            android:layout_margin="10dp"
+            android:text="Bunyi pantul dibedakan menjadi 3 macam yaitu :
+\n1.	Bunyi pantul memperkuat bunyi asli yaitu bunyi pantul yang dapat memperkuat bunyi asli. Biasanya terjadi pada keadaan antara sumber bunyi dan dinding pantul jaraknya tidak begitu jauh (kurang dari 10 meter)
+\n2.	Gaung adalah bunyi pantul yang terdengar hampir bersamaan dengan bunyi asli. Biasanya terjadi pada jarak antara 10 sampai 20 meter.
+\n3.	Gema adalah bunyi pantul yang terdengar setelah bunyi asli. Biasanya terjadi pada jarak lebih dari 20 meter"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

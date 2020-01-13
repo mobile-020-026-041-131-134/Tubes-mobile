@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/english" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modals"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#A52A2A"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#696969"
+            android:layout_margin="10dp"
+            android:text="
+\n Definition of Modal is a verb that combines with another verb to indicate mood or tenses. Modals express necessity, uncertainty, ability, orpermission. Some of them do function as the past tense form of some of the others. May changes to might, will to would, and can to could under the influence of a past tense verb in the main clause of the sentence or occasionally, as with could, under the influence of a past adverbial. \n \n
+1. Can \n
+Can means be able to. Can refers to the present or future. Can also express possibility and in informal speech, is used to request and grant permission. \n
+Examples : \n
+•	I can speak English, but I cannot speak Spanish. (ability) \n
+•	Can I bring my book? (permission) \n
+•	It can rain in December. (possibility) \n \n
+
+2. Could \n
+Could expresses ability, subject to certain conditions which probably do not exist. In this use could can refer to the present, the past or the future. \n
+Examples : \n
+•	When I was seventeen, I could sing all night. (ability in the past) \n
+•	Could I borrow your pen? (permission) \n \n
+
+3. May \n
+May expresses possibility, permission. \n
+Examples : \n
+• I may sleep, but I don't really want to. (possibility) \n
+• May I come to your house? (permission) \n\n
+
+4. Might \n
+Might expresses possibility which is considerably slighter or weaker than that expressed by may also used to express resignation to an undesirable situation. \n
+Example : \n
+•	They say that the movie is not interesting. We might just as well stay at home. \n \n
+
+5. Should \n
+Should expresses the idea of avoidable obligation, to state an obvious conclusion or a logical deduction. \n
+Examples : . \n
+•	I should study more. (But I do not) \n
+•	She took singing lessons for years. She should be a famous singer.  \n \n
+
+
+
+6. Shall . \n
+Shall expresses a request for agreement or an offer to do something for someone. This is the only really common use for shall. \n
+Example :  \n
+•	Shall I go now and come back latter? . \n \n
+
+7. Will \n
+Will is used to express agreement, mild promise, or willingness, or in a question, to make a polite request. also used to express strong determination and the negative of will may express refusal. \n
+Examples : \n
+•	I will do whatever you want. \n
+•	I will pass this examination. \n
+•	My father will not be there tonight. \n\n
+
+8. Would \n
+Would expresses the idea of willingness and determination in reported or indirect discourse and also expresses a habitual or customary action in the past. \n
+Examples : \n
+•	My mother said she would go with me. \n
+•	When I was child, my mother would tell me stories. \n \n
+
+9. Must \n
+Must expresses the idea of necessity or unavoidable obligation, or a condition which cannot be changed. \n
+Example : \n
+•	The time is up. I must go now. \n\n
+
+10. Ought to \n
+Ought to is like should, expresses desirability, avoidable obligation, or duty. It relates to present or future time. Ought to and should are often used interchangeably. \n
+Examples : \n
+•	We ought to study English more. \n
+•	I ought not to have wasted my time. \n
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

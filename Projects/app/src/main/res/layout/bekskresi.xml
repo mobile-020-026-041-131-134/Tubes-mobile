@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/biology" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem Ekskresi Manusia"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#2E8B57"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="1700sp"
+            android:layout_margin="10dp"
+            android:text="Sistem ekskresi merupakan proses pengeluaran zat-zat sisa metabolisme yang sudah tidak digunakan lagi oleh tubuh. Sisa-sisa metabolisme ini berupa senyawa-senyawa yang bersifat toksik (racun) sehingga jika tidak dikeluarkan dapat menyebabkan terganggunya fungsi organ-organ di dalam tubuh. Organ-organ yang berperan dalam sistem ekskresi pada manusia meliputi kulit, ginjal, paru-paru, dan hati.
+\n\nSistem Ekskresi :\n
+1.	Epidermis (Lapisan Kulit Ari)\n
+Epidermis merupakan lapisan kulit paling luar dan sangat tipis. Epidermis terdiri dari lapisan tanduk dan lapisan malphigi. Lapisan tanduk merupakan sel-sel mati yang mudah mengelupas, tidak mengandung pembuluh darah dan serabut saraf, sehingga lapisan ini tidak dapat mengeluarkan darah saat mengelupas. Lapisan malphigi merupakan lapisan yang terdapat di bawah lapisan tanduk, yang tersuun dari sel-sel hidup dan memiliki kemampuan untuk membelah diri. Lapisan malphigi terdapat pigmen yang dapat menentukan warna kulit, dan melindungi sel dari kerusakan akibat sinar matahari.\n
+2.	Dermis (Lapisan Kulit Jangat)\n
+Dermis merupakan lapisan kulit yang terletak di bawah lapisan epidermis. Lapisan dermis lebih tebal daripada lapisan epidermis.
+3.	Ginjal\n
+Ginjal merupakan komponen utama penyusun sistem ekskresi manusia yaitu urin. Manusia memiliki sepasang ginjal berukuran sekitar 10 cm. Letak ginjal di rongga perut sebelah kiri dan kanan ruas-ruas tulang pinggang. Ginjal berfungsi untuk menyaring zat-zat sisa metabolisme dari dalam darah, mempertahankan keseimbangan cairan tubuh, mengeskresikan gula darah yang melebihi kadar normal dan mengatur keseimbangan kadar asam, basa, dan garam di dalam tubuh.\n
+4.	Hati\n
+Hati berada di dalam rongga perut sebelah kanan di bawah diafragma yang dilindungi oleh selaput tipis bernama kapsula hepatis. Hati berfungsi untuk mengeksresikan getah empedu zat sisa dari perombakan sel darah merah yang telah rusak dan dihancurkan di dalam limpa. Selain berfungsi sebagai organ ekskreksi, hati juga berperan sebagai penawar racun, menyimpan glikogen (gula otot), pembentukan sel darah merah pada janin dan sebagai kelenjar pencernaan.
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+

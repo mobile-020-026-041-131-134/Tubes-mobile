@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/indonesia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penulisan Kata Berimbuhan"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#4169E1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="\n \n Kata Berimbuhan
+\n 1. Imbuhan (awalan, sisipan, akhiran, serta gabungan awalan dan akhiran) ditulis serangkai dengan bentuk dasarnya.
+\n a. Awalan
+\n  meng- menulis, melamar, memantau
+\n  di- ditulis, dilamar, dipantau
+\n  peng- penulis, penyanyi, peramal
+\n  ber- berkebun, bermain, bermimpi
+\n  ter- terpaksa, terpadu, tersenyum
+\n  se- serupa, senada, seiring
+\n \n b. Akhiran
+\n -an tulisan, tatapan, tantangan
+\n -i temui, sukai, pandangi
+\n -kan tumbuhkan, sampaikan, umumkan
+\n \n c. Sisipan
+\n -el- geletar, geligi, gelantung
+\n -em- gemuruh, gemetar
+\n -er- gerigi
+\n \n d. Gabungan Imbuhan
+\n meng-...-kan menemukan, meratakan
+\n meng-...-i memandangi,
+\n mengunjungi
+\n peng-...-an pendidikan, pemandian
+\n ke-...-an kehujanan, kemajuan
+\n se-...-nya seandainya, sebaiknya
+\n per-...-an peraturan, persimpangan
+\n \n Misalnya:
+             \n Berjalan berkelanjutan mempermudah gemetar lukisan kemauan perbaikan
+
+\n \n \n 2. Bentuk terikat ditulis serangkai dengan kata yang mengi- kutinya.
+\n Misalnya:
+\n  -  Adibusana aerodinamika antarkota antibiotik awahama bikarbonat biokimia dekameter \n  - Demoralisasi dwiwarna ekabahasa ekstrakurikuler.
+\n  - Infrastruktur inkonvensional kontraindikasi kosponsor mancanegara multilateral.
+\n \n Catatan:
+\n (1) Bentuk terikat yang diikuti oleh kata yang berhuruf
+awal kapital atau singkatan yang berupa huruf ka- pital dirangkaikan dengan tanda hubung ().
+\n Misalnya:
+\n     non-Indonesia pan-Afrikanisme pro-Barat non-ASEAN anti-PKI
+\n (2) Bentuk maha yang diikuti kata turunan yang meng- acu pada nama atau sifat Tuhan ditulis terpisah dengan huruf awal kapital.
+\n Misalnya:
+\n     Marilah kita bersyukur kepada Tuhan Yang Maha Pengasih.
+\n     Kita berdoa kepada Tuhan Yang Maha Pengam- pun.
+\n (3) Bentuk maha yang diikuti kata dasar yang mengacu kepada nama atau sifat Tuhan, kecuali kata esa, di- tulis serangkai.
+\n Misalnya:
+\n     Tuhan Yang Mahakuasa menentukan arah hidup kita.
+\n     Mudah-mudahan Tuhan Yang Maha Esa melin- dungi kita.
+
+
+
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

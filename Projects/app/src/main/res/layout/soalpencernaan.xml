@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/biology" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Sistem Pencernaan"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#2E8B57"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="2084dp"
+            android:layout_margin="10dp"
+            android:text="1.	Perhatikan susunan gigi manusia sebagai organ pencernaan mekanik :\n
+Jenis gigi secara berurutan dari nomor 1, 2, 3 adalah gigi ... ... \n
+A. Seri – taring – geraham\n
+B. Taring – seri - geraham\n
+C. Seri – geraham - taring\n
+D. Taring – geraham – seri\n\n
+2.	Saluran pencernaan yang merupakan muara dari empedu dan pankreas adalah ... ... \n
+A. Lambung\n
+B. Usus dua belas jari\n
+C. Usus penyerapan\n
+D. Usus besar\n\n
+3.	Kadar air dari sisa makanan diatur oleh ... ... \n
+A. Poros usus\n
+B. Usus besar\n
+C. Usus halus\n
+D. Usus dua belas jari\n\n
+4.	Enzim yang berfungsi mengaktifkan pepsin dan membunuh kuman-kuman penyakit adalah … …\n
+A. Renin\n
+B. Tripsin \n
+C. HCL \n
+D. Ptialin\n\n
+5.	Berikut yang terjadi dalam usus besar saat proses pencernaan makanan adalah ... ... \n
+A. membunuh kuman-kuman yang masuk dengan makanan\n
+B. penyerapan air dan pembusukkan sisa-sisa makanan\n
+C. pencernaan karbohidrat dan lemak\n
+D. pelarutan vitamin yang larut dalam air\n\n
+6.	Apendiksitis adalah gangguan sistem pencernaan yang disebabkan ... ... \n
+A. Infeksi pada usus buntu\n
+B. Radang pada dinding lambung\n
+C. Produksi saliva sangat sedikit\n
+D. Rusaknya sel-sel kelenjar lambung\n\n
+7.	Adanya jonjot pada permukaan dalam dinding usus halus menyebabkan ... ... \n
+A. Sari makanan tidak terbuang ke usus besar\n
+B. Penyerapan air sempurna\n
+C. Permukaan usus halus bertambah luas\n
+D. Sari makanan cepat terserap\n\n
+
+8.	Pencernaan protein di lambung dibantu oleh enzim ... ... \n
+A. Tripsin yang mengubah protein menjadi asam amino\n
+B. Amilase yang mengubah protein menjadi asam amino\n
+C. Pepsin yang mengubah protein menjadi pepton\n
+D. Lipase yang mengubah protein menjadi asam lemak\n\n
+9.	Usus halus menghasilkan enzim ... ... Yang berfungsi untuk ... ... \n
+A. Tripsin, mencerna pepton menjadi asam amino\n
+B. Sukrase, mencerna sukrosa menjadi glukosa dan fruktosa\n
+C. Renin , mencerna protein susu dari gumpalan susu\n
+D. Ptialian , mencerna amilun menjadi maltose\n\n
+10.	Penyakit yang diakibatkan oleh kekurangan yodium dalam makanan dan adannya kandungan kapur yang tinggi pada air minum dinamakan ... ... \n
+A. Rabun Senja\n
+B. Merasmus\n
+C. Penyakit Gondok \n
+D. Kwasiorkor
+
+\n\n\n
+Kunci jawaban :\n
+1. A\n
+2. B\n
+3. B\n
+4. D\n
+5. C\n
+6. A\n
+7. A\n
+8. D\n
+9. C\n
+10. C\n
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+

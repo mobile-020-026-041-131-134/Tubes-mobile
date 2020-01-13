@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/reallauncher"
+        android:label="Belajar KUY"
+        android:roundIcon="@mipmap/reallauncher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".about"></activity>
+        <activity android:name=".Adiktif"></activity>
+        <activity android:name=".AsamBasa"></activity>
+        <activity android:name=".Atom"></activity>
+        <activity android:name=".BahasaIndo"></activity>
+        <activity android:name=".BahasaIngg"></activity>
+        <activity android:name=".Biologi"></activity>
+        <activity android:name=".BunyiPantul"></activity>
+        <activity android:name=".CepatRambatGelombang"></activity>
+        <activity android:name=".Ekskresi"></activity>
+        <activity android:name=".Fisika"></activity>
+        <activity android:name=".GelombangLongitudinal"></activity>
+        <activity android:name=".GetaranGelombang"></activity>
+        <activity android:name=".Kimia"></activity>
+        <activity android:name=".ListMateri"></activity>
+        <activity android:name=".ListSoal"></activity>
+        <activity android:name=".Matematika"></activity>
+        <activity android:name=".MatematikaSoal"></activity>
+        <activity android:name=".Modals"></activity>
+        <activity android:name=".Opinion"></activity>
+        <activity android:name=".PastPT"></activity>
+        <activity android:name=".Pecahan"></activity>
+        <activity android:name=".PecahanSoal"></activity>
+        <activity android:name=".PemenggalanKata"></activity>
+        <activity android:name=".Pencernaan"></activity>
+        <activity android:name=".PenggunaanHurufKapital"></activity>
+        <activity android:name=".PenggunaanTandaBaca"></activity>
+        <activity android:name=".PenulisanKataBerimbuhan"></activity>
+        <activity android:name=".PredaraanDarah"></activity>
+        <activity android:name=".Prohibition"></activity>
+        <activity android:name=".Pythagoras"></activity>
+        <activity android:name=".PythagorasSoal"></activity>
+        <activity android:name=".Respirasi"></activity>
+        <activity android:name=".ReaksiKimia"></activity>
+        <activity android:name=".SoalBind1"></activity>
+        <activity android:name=".SoalBind2"></activity>
+        <activity android:name=".SoalBind3"></activity>
+        <activity android:name=".SoalBind4"></activity>
+        <activity android:name=".SoalBindo"></activity>
+        <activity android:name=".SoalBing1"></activity>
+        <activity android:name=".SoalBing2"></activity>
+        <activity android:name=".SoalBing3"></activity>
+        <activity android:name=".SoalBing4"></activity>
+        <activity android:name=".SoalBingg"></activity>
+        <activity android:name=".SoalBiologi"></activity>
+        <activity android:name=".SoalBunyiPantul"></activity>
+        <activity android:name=".SoalCepatRambatGelombang"></activity>
+        <activity android:name=".SoalEkskresi"></activity>
+        <activity android:name=".SoalFisika"></activity>
+        <activity android:name=".SoalGelombangLongitudinal"></activity>
+        <activity android:name=".SoalGetaranGelombang"></activity>
+        <activity android:name=".SoalKimia"></activity>
+        <activity android:name=".SoalKim1"></activity>
+        <activity android:name=".SoalKim2"></activity>
+        <activity android:name=".SoalKim3"></activity>
+        <activity android:name=".SoalKim4"></activity>
+        <activity android:name=".SoalMate"></activity>
+        <activity android:name=".SoalPencernaan"></activity>
+        <activity android:name=".SoalPredaraanDarah"></activity>
+        <activity android:name=".SoalRespirasi"></activity>
+        <activity android:name=".Spldv"></activity>
+        <activity android:name=".SpldvSoal"></activity>
+    </application>
+
+</manifest>

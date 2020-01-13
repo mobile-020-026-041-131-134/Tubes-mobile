@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/biology" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Sistem Ekskresi Manusia"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#2E8B57"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="2200dp"
+            android:layout_margin="10dp"
+            android:text="1.	Perhatikan ciri-ciri pembuluh darah berikut !\n
+1) Kaya akan karbondioksida\n
+2) Memiliki dinding yang elastis dan tebal\n
+3) Membawa darah keluar dari jantung\n
+4) Terletak didekat permulaan kulit\n
+Pembuluh arteri memiliki ciri-ciri yang ditunjukkan oleh nomor . . . \n
+A. 1dan2\n
+B. 1dan4\n
+C. 2dan3\n
+D. 3dan4\n\n
+2.	Sel darah yang berfungsi dalam proses pembekuan darah saat luka adalah ... ... \n
+A. Sel darah merah\n
+B. Plasma darah\n
+C. Keping-keping darah\n
+D. Sel darah putih\n\n
+3.	Darah dapat beredar ke seluruh tubuh karena adanya aktivitas .... \n
+A. Kontraksi bilik jantung\n
+B. Kontraksi serambi jantung\n
+C. Relaksasi bilik jantung\n
+D. Relaksasi serambi jantung\n\n
+4.	Hemoglobin (Hb) yang terdapat dalam sel darah merah berfungsi untuk . . . . \n
+A. Membantu proses pembekuan darah\n
+B. Membunuh kuman penyakit\n
+C. Membawa oksigen ke seluruh tubuh\n
+D. Membawa glukosa ke seluruh tubuh\n\n
+5.	Tekanan darah seseorang menunjukkan angka 120/80 mmHg. Nilai 80 mmHg pada hasil pengukuran tersebut menunjukkan tekanan ... ... \n
+A. Sistol\n
+B. Diastol\n
+C. Darah tinggi\n
+D. Darah rendah\n\n
+6.	Ditemukan sel darah yang mempunyai ciri-ciri sebagai berikut : \n
+1) Tidak berinti\n
+2) Berbentuk cakram bikonkaf\n
+3) Mengandung hemoglobin\n
+Sel darah tersebut berfungsi untuk .  . . . \n
+A. Membekukan darah\n
+B. Menghasilkan antibodi\n
+C. Mengedarkan oksigen ke seluruh tubuh\n
+D. Mengedarkan sari makanan ke seluruh\n\n
+7.	Perhatikan kerja jantung dan pembuluh darah di bawah ini ! \n
+1) Darah dari serambi kiri mengalir ke bilik kiri melalui katup bikuspidalis\n
+2) Darah dari serambi kanan mengalir ke bilik kanan melalui katup trikuspidalis\n
+3) Bilik berkontraksi, darah masuk ke dalam arteri dialirkan ke seluruh tubuh kecuali paru-paru\n
+4) Vena cava membawa darah yang banyak mengandung CO2 keserambi kanan\n
+Urutan peredaran darah besar adalah ... ... \n
+A. 1→3→4→2\n
+B. 1→3→2→4\n
+C. 2→3→4→1\n
+D. 4→2→3→1\n\n
+8.	Kerja jantung dalam mekanisme peredaran darah adalah ... ... \n
+A. Jika ventrikel relaksasi, darah keluar dari jantung\n
+B. Jika ventrikel kontraksi, darah masuk ke jantung\n
+C. Atrium kontraksi, darah masuk ke ventrikel\n
+D. Atrium relaksasi, darah masuk ke ventrikel\n\n
+9.	Penyakit yang disebabkan oleh pelebaran pembuluh darah adalah . . . . \n
+A. Varises dan hipertensi\n
+B. Hipertensi dan sklerosis\n
+C. Ambeien dan varises\n
+D. Anemia dan leukemia\n\n
+10.	Perhatikan data berikut : \n
+1. Kaya oksigen\n
+2. Kaya karbondioksida\n
+3. Memiliki banyak katup\n
+4. bersifat elastik\n
+5. letak dekat permukaan kulit\n
+Ciri yang di miliki oleh pembuluh arteri adalah ... ... \n
+A. 1, 2 dan 3\n
+B. 2,4 dan 5\n
+C. 1, 3, dan 4 \n D. 3, 4 dan 5
+
+\n\n\n
+Kunci jawaban :\n
+1. A\n
+2. B\n
+3. B\n
+4. D\n
+5. C\n
+6. A\n
+7. A\n
+8. D\n
+9. C\n
+10. C\n
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+

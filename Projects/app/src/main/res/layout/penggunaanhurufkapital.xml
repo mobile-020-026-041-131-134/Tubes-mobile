@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/indonesia" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penggunaan Huruf Kapital"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#4169E1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="\n \n 1. Fungsi huruf kapital
+\n Huruf Kapital sebagai huruf pertama awal kalimat
+ \n     Contoh
+\n	- Bunga mawar itu layu karena tiga hari belum disiram air. \n
+\n	- Siapa orang yang membeli rumahmu? \n
+\n	- Ayo, kita segera berangkat ke sekolah! \n \n
+
+
+\n 2. Huruf Kapital sebagai huruf pertama nama orang atau julukan
+ \n     Contoh
+\n	- Nama guruku adalah Fajar Nur Amin.
+\n	- Orang itu dijuluki Dewa Puisi karena sering membuat puisi yang indah.
+
+\n     Catatan
+\n  - Kata awal nama hewan atau tumbuhan tidak ditulis kapital \n
+
+\n     Contoh \n
+\n	- Doni membeli lima ekor sapi dari Boyolali. \n
+\n	- Ayah sedang menanam bunga mawar, melati, dan tulip di halaman rumah. \n
+\n	- Ibu sedang menebang pohon jati, akasia, dan jati.
+
+ \n    Catatan
+       \n Nama yang menggunakan kata yang bermakna ‘anak dari’, seperti bin, binti, boru, atau van tetap ditulis kecil. Begitu pula dengan nama julukan yang menggunakan kata tugas, seperti dari, di, ke, dan, dan lain-lain. \n
+
+\n     Contoh \n
+•	Pedang yang terlihat sangat tajam itu milik Ali bin Abi Thalib. \n
+•	Pahlawan itu mendapat julukan Ayam Jantan dari Timur. \n    \n
+
+\n 3. Huruf Kapital sebagai awal kalimat petikan langsung
+\n       Contoh \n
+
+•	Ibu berkata kepadaku, “Mereka sedang mandi di sungai.” \n
+•	“Nanti malam,” kata Ibu, “mereka akan tidur di sini.” \n \n
+
+\n  4. Huruf Kapital sebagai huruf pertama setiap kata nama agama, kitab suci, dan Tuhan
+ \n      Contoh: \n
+
+•	Orang itu baru saja memeluk agama Islam. \n
+•	Orang itu sedang mempelajari kitab Injil. \n
+•	Aku percaya kepada Allah. \n
+•	Ya, Tuhan, lindungilah keluargaku dari siksa-Mu dan berilah petunjuk agar kami tetap di jalan yang Engkau ridai. \n
+•	Aku yakin terhadap Tuhan Yang Maha Esa. \n \n
+
+
+\n 5. Huruf Kapital sebagai huruf pertama nama gelar diikuti nama
+        \n Contoh: \n
+•	Raja Firaun marah kepada Nabi Musa. \n
+•	Dia sedang bertemu Profesor Malik Handoko di lobi hotel. \n
+•	Acara itu dihadiri oleh Haji Ali Munawar. \n\n
+
+\n  6. Huruf Kapital sebagai huruf pertama nama jabatan atau pangkat diikuti nama/instansi/tempat
+       \n Contoh: \n
+•	Presiden kedua Indonesia adalah Presiden Soeharto. \n
+•	Acara itu dihadiri oleh Gubernur Jawa Barat. \n
+•	Mereka juga mengundang Sekretaris Jenderal Kementerian Pendidikan dan Kebudayaan. \n\n
+
+\n 7. Huruf Kapital sebagai huruf pertama nama bangsa, suku bangsa, dan bahasa
+       \n Contoh: \n
+•	Orang yang sedang makan mi ayam itu berasal dari bangsa Persia. \n
+•	Peneliti dari Inggris itu sedang mempelajari kebiasaan masyarakat suku Asmat. \n
+•	Aku senang mempelajari bahasa Arab karena ingin bekerja di Arab Saudi.
+
+\n      Catatan \n
+Banyak orang yang masih salah menulis nama bangsa, suku, dan bahasa. Masih banyak ditemui untuk penulisan kata bangsa, suku, dan bahasa ditulis masih huruf kapital, padahal kata-kata tersebut harus ditulis kecil, sedangkan yang besar adalah huruf pertama nama bangsa, suku, atau bahasa. \n
+
+\n      Contoh \n
+Orang yang sedang makan mi ayam itu berasal dari Bangsa Persia. (SALAH) \n
+Peneliti dari Inggris itu sedang mempelajari kebiasaan masyarakat Suku Asmat. (SALAH) \n
+Aku senang mempelajari Bahasa Arab karena ingin bekerja di Arab Saudi. (SALAH) \n\n
+
+
+\n 8. Huruf Kapital sebagai huruf pertama nama tahun, bulan, hari, dan hari besar
+  \n      Contoh \n
+•	Negara ini menganut sistem penanggalan tahun Masehi. \n
+•	Aku akan pergi ke sana pada bulan Mei. \n
+•	Aku lahir pada malam Jumat Kliwon. \n
+•	Mereka merayakan hari Natal di gereja. \n \n
+
+
+\n 9. Huruf Kapital sebagai huruf pertama nama peristiwa sejarah
+\n        Contoh: \n
+•	Pak Amir sedang menerangkan terjadinya Perang Badar.	\n
+•	Indonesia pernah menjadi tuan rumah Konferensi Asia Afrika. \n\n
+
+
+\n 10. Huruf Kapital sebagai huruf pertama nama geografi
+         \n Contoh: \n
+•	Tahun kemarin aku pergi ke Pantai Parangtritis. \n
+•	Kapal itu sedang menyeberangi Selat Sunda. \n
+•	Telaga Warna adalah salah satu objek wisata di Dataran Tinggi Dieng.
+
+
+\n      Catatan
+\n Nama diri geografi yang dipakai sebagai nama jenis tidak ditulis dengan huruf kapital\n\n
+Contoh\n
+•	Mereka sedang menikmati jeruk bali pemberian Pak Ali. \n
+•	Ayah membeli terong belanda di pasar. \n
+•	Ayah memperbaiki sepeda dengan kunci inggris. \n\n
+
+
+
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

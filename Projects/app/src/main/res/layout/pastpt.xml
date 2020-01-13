@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/english" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Past Perfect Tense"
+            android:fontFamily="@font/fontjudul"
+            android:textColor="#A52A2A"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#696969"
+            android:text="
+            \nFungsi Past Perfect Tense \n
+Past Perfect Tense berfungsi untuk menunjukkan sebuah aktivitas yang terjadi di masa lalu. \n Contoh: I had already bought the book before you suggested me to buy it (Aku sudah membeli bukunya sebelum kau memberitahuku untuk membelinya) \n
+
+\nPast Perfect Tense bisa disandingkan dengan past future tense untuk membentuk conditional sentence type 2.
+\nContoh: If you had eaten before you travel, you would not sick like this (Jika kamu makan dulu sebelum bepergian, kamu tidak akan sakit seperti ini)\n
+
+\nPast Perfect Tense juga berguna untuk menyatakan suatu aktifitas yang sudah terjadi sebelum kejadian lainnya di masa lalu.
+\nContoh: I had not turned off the stove before I went out yesterday (Aku tidak mematikan kompor sebelum aku pergi keluar kemarin)\n \n
+
+Rumus Past Perfect Tense \n
+Past Perfect Tense terdiri dari dua rumus yaitu rumus past dan rumus perfect. di dalam rumus past ciri utamanya adalah  menggunakan verb-2 dan rumus perfect menggunakan have/has + verb-3. Maka jika digabungkan akan menjadi S + had + Verb 3, karena bentuk kedua atau verb2 dari have/has adalah had dan ciri utama perfect tentu saja menggunakan verb-3. Mari kita simak rumus lengkapnya pada tabel di bawah ini. \n
+
+\n \nContoh Kalimat Past Perfect Tense \n
+•	My aunt died last year when she had giving a birth his first son (Bibiku meninggal saat dia melahirkan anak laki-laki pertamanya) \n
+•	Gita had checked the list of travel equipments before she had travelling (Gita sudah memeriksa daftar barang bawaan sebelum dia melakukan perjalanan) \n
+•	I had never seen him before, I didn't know who he was (Aku tidak pernah melihat dia sebelumnya. Aku tidak tahu siapa dia) \n
+•	It had been a long time after we graduated from high school (Itu sudah lama sekali setelah kita lulus dari SMA) \n
+•	Mrs. Tania had already giving all the material before she gave us an exam (Mrs.Tania sudah memberikan semua materi sebelum dia memberi ulangan) \n
+•	I had cooked the food for you before I go to work. (Aku sudah memasak makanan sebelum aku pergi kerja) \n
+•	I had given everything I have but you broke my heart by leaving so easily. (Aku sudah memberikan segalanya yang aku punya tapi kau menghancurkan hatiku dengan meninggalkanku segampang itu) \n
+•	The audience aplauded after the artist had given a very baeutiful performance. (Para penonton bertepuk tangan setelah sang artis memberikan penampilan yang sangat cantik) \n
+•	Had you lived in Bandung before you lived here? (Sudahkah kamu tinggal di bandung sebelum kamu tinggal disini?) \n
+•	How long had you used the Internet when I went out? (Berapa lama kamu menggunakan internet disaat aku keluar?) \n
+
+"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

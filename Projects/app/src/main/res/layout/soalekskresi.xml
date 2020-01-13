@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/biology" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Soal Sistem Ekskresi Manusia"
+            android:fontFamily="@font/fontjudul"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="#2E8B57"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="2084dp"
+            android:layout_margin="10dp"
+            android:text="1.	Proses metabolisme tubuh menghasilkan zat- zat sisa seperti di bawah ini, kecuali ... ...\n
+A. Karbondioksida \n
+B. Amonia\n
+C. Urea\n
+D. Karbohidrat\n\n
+2.	Yang merupakan kelompok organ ekskresi ialah ... ... \n
+A. Paru-paru,kulit,Ginjal\n
+B. Paru – paru, tenggorokan, rongga hidung\n
+C. Darah,jantung,paru-paru\n
+D. Otak, sumsum tulang belakang, saraf\n\n
+3.	Zat sisa yang berasal dari sel-sel darah merah yang telah rusak dan dihancurkan oleh hati berupa ... ... \n
+A. Urine\n
+B. Empedu\n
+C. Keringat\n
+D. Karbondioksida dan uap air\n\n
+4.	Urin adalah zat sisa berbentuk cairan yang berasal dari ... \n
+A. Sisa pencernaan protein\n
+B. Perombakan sel darah merah\n
+C. Sari makanan yang tidak dapat diserap oleh usus halus\n
+D. Penyaringan darah dalam ginjal\n\n
+5.	Penyakit batu ginjal, diakibatkan oleh mengkristalnya beberapa garam tertentu (misalnya garam oksalat), sehingga pengeluaran urin tergangggu. Pengkristalan dari garam tersebut dapat terjadi dalam ... ... \n
+A. Ronggaginjal\n
+B. Ureter\n
+C. Kandung\n kemih
+D. Uretra\n\n
+6.	Diabetes mellitus dapat terjadi karena ... .. \n
+A. Nefron gagal menyerap kelebihan glukosa\n
+B. Kelebihankadargaramdalamdarah\n
+C. Pankreasmenghasilkaninsulin\n
+D. Adanya infeksi kuman pada glomerulus\n\n
+7.	Seorang pasien didiagnosis mengalami radang ginjal karena adanya kerusakan nefron, khusus-nya glomerulus yang disebabkan oleh infeksi bakteri. Dari kondisi tersebut, dapat dipastikan bahwa orang tersebut menderita penyakit ... ... \n
+A. diabetesinsipidus \n
+B. gagalginjal\n
+C. albuminuria\n
+D. nefritis\n\n
+8.	Proses pengeluaran zat-zat sisa metabolisme yang sudah tidak digunakan lagi oleh sel-sel dan darah, dikeluarkan oleh tubuh bersama urine, keringat, dan pernapasan. Proses pengeluaran ini disebut ... ... \n
+A. Sekresi B. Ekskresi C. Respirasi D. Defekasi\n\n
+9.	Bagian terpenting dari kulit kita yang mendukung proses ekskresi adalah . . . . \n
+A. Kelenjarkeringat\n
+B. Kelenjarminyak\n
+C. Lapisantanduk \n
+D. Saraf\n\n
+10.	Selain sebagai alat ekskresi, hati memiliki fungsi yang lain, di antaranya adalah sebagai berikut, kecuali . . . . \n
+A. Tempat pembentukan trombin\n
+B. Tempat pembentukan glikogen\n
+C. Tempat pembongkaran sel darah merah\n
+D. Tempat pengubahan provitamin D menjadi vitamin D\n
+\n\n\n
+Kunci jawaban :\n
+1. A\n
+2. B\n
+3. B\n
+4. D\n
+5. C\n
+6. A\n
+7. A\n
+8. D\n
+9. C\n
+10. C\n
+"
+            android:textColor="#696969"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
